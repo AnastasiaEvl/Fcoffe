@@ -1,0 +1,251 @@
+.registration{
+    position: relative;
+    width: 133px;
+    height: 26px;
+    margin-left: 93px;
+    margin-top: 25px;
+    margin-right:94px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    color: #000000;
+
+}
+.logo{
+    position: relative;
+    width: 83px;
+    height: 83px;
+    margin-left: 111px;
+    margin-top: 53px;
+    margin-right: 126px;
+
+}
+.email{
+    position: relative;
+    width:79px;
+    height: 15px;
+    margin-left: 16px;
+    margin-top:25px;
+    padding-bottom: 0px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height:250%;
+    color: #828282;
+
+
+}
+
+.line_first{
+    position: relative;
+    width: 288px;
+    height: 0px;
+    margin-left: 16px;
+    
+
+    
+
+}
+
+.errorMessage{
+    position:relative;
+    margin-top: 6px;
+    width: 75px;
+    height: 12px;
+    margin-left: 16px;
+  
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight:300;
+    font-size: 10px;
+    line-height: 120%;
+    color:#F04A3F;
+}
+.password{
+    position: relative;
+    width: 117px;
+    height: 15px;
+    margin-left: 16px;
+    margin-top:26px;
+    padding-top: 7px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height:250%;
+    color: #828282;
+   
+}
+.line_second{
+    position: relative;
+    width: 288px;
+    height: 0px;
+    margin-left: 16px;
+    margin-top: 37px;
+    
+}
+.errorMessageTwo{
+    position: relative;
+    width:80px;
+    height: 12px;
+    margin-left: 16px;
+    margin-top: 6.48px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size:10px;
+    line-height:250%;
+    color: #F04A3F
+}
+
+.registration_social_sites{
+    position: relative;
+    width: 166px;
+    height: 25px;
+    margin-left: 77px;
+    margin-top: 26.48px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size:10px;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.social_logo{
+    position:relative;
+    margin-top:14px;
+    margin-left:63px;
+    margin-right:63px;
+   display: flex;
+  column-gap: 30px;
+  justify-content: space-between;
+ padding-bottom: 0px;
+}
+
+.RegisterBtn{
+    position:relative;
+    width:288px;
+    height:47px;
+    margin-left:16px;
+    margin-top: 28px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+
+}
+.wrapper{
+    position:absolute;
+    margin-top:0px;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:100%;
+   
+}
+.registeredLink{
+    position: relative;
+    width: 154px;
+    height: 19px;
+    margin-left: 83px;
+    margin-top: 17px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height:12px;
+    color: #828282;
+}
+
+.Icon{
+    position:absolute;
+    width: 11.98px;
+    height: 20.79px;
+    margin-top: 43px;
+    margin-left: 14px;
+
+
+}
+tbody{
+    position: absolute;
+    margin-left: 16px;
+    margin-right:16px;
+   
+}
+form{
+    position:relative;
+}
+.errorText{
+    position: relative;
+    margin-top:-18px;
+    width: 200px;
+    height:12px;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size:10px;
+    line-height: 120%;
+    color: #F9BE26;
+
+}
+
+input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 25px;
+    color: rgba(196, 196, 196, 0.88)
+}
+
+.ask{border:1px solid black}
+
+b{
+    cursor: pointer;
+
+}.checkbox{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #828282;
+    margin-left: 16px;
+    margin-top: 7.48px;
+  
+}
+.check{
+    position: relative;
+    
+}
+
+.boxCheck{
+    position: relative;
+    width:100px;
+    margin-left: 210px;
+    margin-top: -18px;
+   
+}
+
+.forgot_pass{ cursor: pointer;
+
+
+}
