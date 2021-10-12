@@ -4,6 +4,8 @@ import axios from "axios";
 import Box from "@mui/material/Box";
 import Input from "@mui/material/Input";
 // import ".src/RegistrationForm/AuthorizationForm/AStyle.css";
+import { Redirect } from "react-router";
+import MainPage from "../../MainPage/MainPage";
 
 function AuthorizationForm() {
   const [email, setEmail] = useState("");
@@ -17,6 +19,8 @@ function AuthorizationForm() {
   const [errorPassword, setErrorPasword] = useState("Введите пароль");
 
   const ariaLabel = { "aria-label": "description" };
+
+  const [redirect, setRedirect] = useState(false);
 
   function buttonChange() {
     if (errorEmail || errorPassword) {
@@ -81,8 +85,13 @@ function AuthorizationForm() {
         // if (data.status === 200) {
         // window.location = "/signUp";
         // }
+        setRedirect(true);
       })
       .then((error) => console.log(error));
+    setRedirect(true);
+  }
+  if (redirect) {
+    return <Redirect to="MainPage" />;
   }
 
   return (
