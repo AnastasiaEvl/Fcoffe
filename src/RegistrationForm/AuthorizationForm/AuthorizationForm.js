@@ -1,11 +1,9 @@
-import React, { ReactElement, useState, useEffect } from "react";
+import React, {useState} from "react";
 import axios from "axios";
 
 import Box from "@mui/material/Box";
 import Input from "@mui/material/Input";
-// import ".src/RegistrationForm/AuthorizationForm/AStyle.css";
-import { Redirect } from "react-router";
-import MainPage from "../../MainPage/MainPage";
+import {Redirect} from "react-router";
 
 function AuthorizationForm() {
   const [email, setEmail] = useState("");

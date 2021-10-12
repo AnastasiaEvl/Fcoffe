@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter,
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import {BrowserRouter, Route,} from "react-router-dom";
 import RegistrationForm from "./RegistrationForm";
 import AuthorizationForm from "./AuthorizationForm/AuthorizationForm";
 import ForgotForm from "./ForgotForm/ForgotForm";
