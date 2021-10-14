@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import axios from "axios";
 
 import Box from "@mui/material/Box";
@@ -104,10 +104,10 @@ function FormEnter() {
   return (
     <div className="wrapper">
       <a href="#">
-        <img className="Icon" src="/image/Icon.png" />
+        <img className="Icon" src="/image/Icon.svg" />
       </a>
 
-      <img className="logo" src="/image/logo.png" />
+      <img className="logoC" src="/image/logo.svg" />
 
       <div className="registration">Регистрация</div>
       <Box
@@ -180,16 +180,16 @@ function FormEnter() {
               <tr>
                 <div className="social_logo">
                   <a href="#">
-                    <img src="/image/google.png" />
+                    <img src="/image/google.svg" />
                   </a>
                   <a href="#">
-                    <img src="/image/facebook.png" />
+                    <img src="/image/facebook.svg" />
                   </a>
                   <a href="#">
-                    <img src="/image/vk.png" />
+                    <img src="/image/vk.svg" />
                   </a>
                   <a href="#">
-                    <img src="/image/yandex.png" />
+                    <img src="/image/yandex.svg" />
                   </a>
                 </div>
               </tr>

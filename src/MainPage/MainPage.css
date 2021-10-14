@@ -1,0 +1,537 @@
+.wrapper2{
+    position:absolute;
+   
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:5000px;
+    border: 2px solid black;
+}
+
+.burger{
+    position: absolute;
+    margin-left:16px;
+    margin-top: 37px;
+}
+.menu{
+    position: relative;
+    height: 83px;
+    width: auto;
+    border: 2px solid green;
+}
+.main {
+    position:absolute;
+    height: 3547px;
+    width: 321px;
+    border: 2px solid purple;
+}
+.ru{
+    position: absolute;
+    margin-left: 54px;
+    margin-top: 37px;
+}
+
+.logo{
+    position:absolute;
+    margin-top:14px;
+    margin-left:133px;
+  
+    width:54px;
+    height:54px;
+
+}
+.enter{
+    position:absolute;
+    margin-left:259px;
+    margin-top:33px;
+    margin-right: 13px;
+    padding-top:0px;
+}
+.mainpicture{
+    width: 321px;
+    height: 215px;
+}
+.mainpic{
+    position: absolute;
+    width: 321px;
+    height: 215px;
+    z-index: 0;
+}
+.steps{
+
+    height:567px;
+    width: 321px;
+    border: 1px solid red;
+}
+.logo3{width:32px;
+    height:32px;
+    position:absolute;
+    z-index:1;
+    margin-left:187px;
+    margin-top:83px;
+
+}
+
+.coffeeFone{
+    position:absolute;
+    z-index: 0;
+}
+.line{
+    position:absolute;
+    z-index: 1;
+    margin-left:60px;
+    margin-right:255px;
+    height:568px;
+    width:6px;
+
+}
+
+.logo1{
+    position: absolute;
+    height:88px;
+    width:88px;
+    margin-left: 19px;
+    margin-top: 40px;
+    z-index:2;
+}
+.clocks{
+    position: absolute;
+    height:38px;
+    width:38px;
+    margin-left:43px;
+    margin-top: 148px;
+    z-index: 2;
+   
+} 
+.list{
+    position:absolute;
+    height: 38px;
+    width: 38px;
+    margin-left:43px;
+    margin-top:210px;
+    z-index: 2;
+}
+.kindOfGoods{
+    position: absolute;
+    height:38px;
+    width:38px;
+    margin-left: 43px;
+    margin-top: 272px;
+    z-index: 2;
+}
+
+.cup{
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    margin-left: 43px;
+    margin-top: 334px;
+    z-index: 2;
+}
+.bank{
+    position:absolute;
+    height: 38px;
+    width: 38px;
+    margin-left: 43px;
+    margin-top: 396px;
+    z-index: 2;
+}
+.heart{
+    position: absolute;
+    height: 38px;
+    width:38px;
+    margin-left: 43px;
+    margin-top: 458px;
+    z-index: 2;
+}
+.V{
+    position: absolute;
+    z-index: 2;
+    height: 13.82px;
+    width: 17px;
+    margin-top:43.59px;
+    margin-left: 119px;
+
+}
+.V2{
+    position: absolute;
+    z-index: 2;
+    height: 13.82px;
+    width: 17px;
+    margin-top:93.59px;
+    margin-left: 119px;
+}
+
+.text1{
+    position: absolute;
+    z-index: 2;
+    height: 52px;
+    width: 172px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-left: 142px;
+    margin-top: 32px;
+
+ 
+    font-weight:600;
+    line-height: 16px;
+}
+.text2{
+     position: absolute;
+    z-index: 2;
+    height: 52px;
+    width: 172px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-left: 143px;
+    margin-top: 83px;
+    font-weight:600;
+    line-height: 16px;
+}
+
+.text3{
+    position: absolute;
+   z-index: 2;
+   height: 46px;
+   width: 198px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   margin-left: 108px;
+   margin-top: 150px;
+   font-weight:300;
+   line-height: 12px;
+
+}
+.text4{
+    position: absolute;
+   z-index: 2;
+   height: 46px;
+   width: 198px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   margin-left: 108px;
+   margin-top: 219px;
+   font-weight:300;
+   line-height: 12px;
+
+}
+.text5{
+    position: absolute;
+   z-index: 2;
+   height: 46px;
+   width: 198px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   margin-left: 108px;
+   margin-top: 281px;
+   font-weight:300;
+   line-height: 12px;
+
+}
+.text6{
+    position: absolute;
+   z-index: 2;
+   height: 46px;
+   width: 198px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   margin-left: 108px;
+   margin-top: 343px;
+   font-weight:300;
+   line-height: 12px;
+
+}
+.text6{
+    position: absolute;
+   z-index: 2;
+   height: 46px;
+   width: 198px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   margin-left: 108px;
+   margin-top: 343px;
+   font-weight:300;
+   line-height: 12px;
+
+}
+.text7{
+    position: absolute;
+   z-index: 2;
+   height: 46px;
+   width: 198px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   margin-left: 108px;
+   margin-top: 401px;
+   font-weight:300;
+   line-height: 12px;
+
+}
+.text8{
+    position: absolute;
+   z-index: 2;
+   height: 46px;
+   width: 198px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   margin-left: 108px;
+   margin-top: 464px;
+   font-weight:300;
+   line-height: 12px;
+
+}
+.counter{
+    position:absolute;
+    margin-top: 0px;
+    width:320px;
+    height:889px;
+    background-color: rgba(229,229,229,0.8);
+    border: 1px solid black;
+}
+.partners{
+    position:absolute;
+    margin-top: 40px;
+    margin-left:79px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-weight:bold;
+    font-size:18px;
+    line-height: 22px;
+    text-align: center;
+}
+.logoPartners{
+    position:absolute;
+    margin-top:74px;
+    margin-left:37px;
+    width:161,77px;
+    height:161.77px;
+}
+.coffeePartners{
+    position:absolute;
+    margin-top:0px;
+    margin-left:37px;
+    width:161,77px;
+    height:161.77px;
+}
+
+.partner{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 16px;
+    margin-left: 178px;
+    margin-top:199px;
+}
+.cofePartners{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 16px;
+    margin-left: 178px;
+    margin-top: 136px;
+}
+.hotfix{
+    position:absolute;
+    margin-top: 8.95px;
+    margin-left: 53px;
+    height:95,34px;
+    width: 96,1px;
+}
+.yumy{
+    position:absolute;
+    margin-top:11.23px;
+    margin-left:180px;
+    width:90px;
+    height:90px;
+}
+.guru{
+    position:absolute;
+    margin-top: 134.23px;
+    margin-left:53px;
+}
+.cofix{
+    position: absolute;
+    margin-top: 134.23px;
+    margin-left:181px;
+
+}
+.cofeSound{
+    position:absolute;
+    margin-top:257.63px;
+    margin-left:53px;
+}
+
+
+.stantion{
+    position: absolute;
+    margin-top:254.27px;
+    margin-left:180px ;
+}
+.zerno{
+    position:absolute;
+    margin-left:50px;
+    margin-top: 378.23px;
+
+}
+.lavaza{
+    position:absolute;
+    margin-left:179px;
+    margin-top: 378.23px;
+}
+.Sale{
+    position:absolute;
+    height:383px;
+    margin-top: 0px;
+}
+.sales{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top:921px;
+    margin-left: 26px;
+    position: relative;
+}
+.carousel{
+    position:absolute;
+    border:2px solid #414142;
+    margin-top:32px;
+    width: 320px;
+    height:172px;
+
+
+}
+.first{
+    width: 320px;
+    height:172px;
+    background-color: pink;
+       
+}
+
+.proposal{
+    position: absolute;
+    margin-top:40px;
+    margin-left:15px;
+    border: 1px solid #414142;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    height:45px;
+    width:288px;
+    border-radius: 5px;
+    box-sizing:border-box;
+    padding-top:10px;
+    color: #414142;
+
+    
+}
+.welcome{
+    background-color: #21252B;
+    position: absolute;
+    margin-top: 1272px;
+    height: 293px;
+    width:320px;
+
+}
+.textWelcome{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 22px;
+    color:#FFFFFF;
+    width: 268px;
+    height: 46px;
+    position: absolute;
+    margin-top: 46px;
+    margin-left:16px;
+
+}
+.registered{
+    color: #FFFFFF;
+    position:absolute;
+    margin-top: 92px;
+    margin-left: 17px;
+    height:99px;
+    width: 173px;
+}
+.funCup{
+    margin-top: 73px;
+    margin-left: 193px;
+    width:115px;
+    height:115px;
+
+}
+.regButton{
+    position:absolute;
+    margin-top:24px;
+    margin-left:17px;
+    font-size:14px;
+    font-weight: bold;
+    background-color:#F7C1D9 ;
+    width:288px;
+    height:45px;
+    position: absolute;
+    text-align: center;
+    padding-top:12px; 
+    border-radius: 5px;
+}
+.numbers{
+    position: absolute;
+    height:203px;
+    width: 320px;
+ 
+    margin-top: 1629px;
+
+}
+.man{
+    margin-top:32px;
+    margin-left:13px;
+    position: absolute;
+    width: 36px;
+    height: 37px;
+}
+.smallCup{
+    position: absolute;
+    margin-top:32px;
+    margin-left: 173.11px;
+    width:37.79px;
+    height: 37.79px;
+}
+.number1{
+    position: absolute;
+    margin-left: 38px;
+    margin-top:61px;
+    font-weight:bold;
+    font-size:54px;
+    height:41px;
+    width: 103px;
+    
+}
+
+.number2{
+    position: absolute;
+    margin-left: 201px;
+    margin-top:61px;
+    font-weight:bold;
+    font-size:54px;
+    height:41px;
+    width: 103px;
+}
+.users{
+
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 119px;
+    height:17px;
+    width: 139px;
+    letter-spacing: -0.05em;
+    padding-top:11px;
+}
+.numberCoffee{
+    position: absolute;
+    margin-left: 204px;
+    margin-top: 119px;
+    height:17px;
+    width: 139px;
+    letter-spacing: -0.05em;
+    padding-top:11px;
+}
