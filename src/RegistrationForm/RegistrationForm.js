@@ -4,6 +4,7 @@ import axios from "axios";
 import Box from "@mui/material/Box";
 import Input from "@mui/material/Input";
 import "./Registration.css";
+import MainPage from "../MainPage/MainPage";
 
 function FormEnter() {
   const [email, setEmail] = useState("");
@@ -100,12 +101,15 @@ function FormEnter() {
       })
       .then((data) => console.log("error"));
   }
+  function MainPage() {
+    window.location = "/MainPage";
+  }
 
   return (
     <div className="wrapper">
-      <a href="#">
+      <div onClick={MainPage}>
         <img className="Icon" src="/image/Icon.svg" />
-      </a>
+      </div>
 
       <img className="logoC" src="/image/logo.svg" />
 

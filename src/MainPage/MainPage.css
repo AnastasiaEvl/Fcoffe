@@ -1,12 +1,16 @@
 .wrapper2{
     position:absolute;
-   
-    margin:0px;
-    padding:0px;
     width:100%;
-    height:5000px;
-    border: 2px solid black;
+    height:3550px;
+  
 }
+
+.a {
+    text-decoration: none;}
+.a:hover {
+        text-decoration: none;
+       }
+   
 
 .burger{
     position: absolute;
@@ -14,17 +18,16 @@
     margin-top: 37px;
 }
 .menu{
-    position: relative;
-    height: 83px;
-    width: auto;
-    border: 2px solid green;
+
+
+height: 84px;
+width: 321px;
+border-radius: 0px;
+
+margin-left: auto;
+margin-right: auto;
 }
-.main {
-    position:absolute;
-    height: 3547px;
-    width: 321px;
-    border: 2px solid purple;
-}
+
 .ru{
     position: absolute;
     margin-left: 54px;
@@ -46,8 +49,12 @@
     margin-top:33px;
     margin-right: 13px;
     padding-top:0px;
+    cursor: pointer;
 }
 .mainpicture{
+    margin-left: auto;
+    margin-right: auto;
+   
     width: 321px;
     height: 215px;
 }
@@ -58,19 +65,16 @@
     z-index: 0;
 }
 .steps{
-
-    height:567px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 567px;
     width: 321px;
-    border: 1px solid red;
+    left: 0px;
+    top: 297px;
+    border-radius: 0px;
+  
 }
-.logo3{width:32px;
-    height:32px;
-    position:absolute;
-    z-index:1;
-    margin-left:187px;
-    margin-top:83px;
 
-}
 
 .coffeeFone{
     position:absolute;
@@ -281,12 +285,16 @@
 
 }
 .counter{
-    position:absolute;
-    margin-top: 0px;
-    width:320px;
-    height:889px;
+    margin-left: auto;
+    margin-right: auto;
+height: 900px;
+width: 320px;
+left: 0px;
+top: 864px;
+border-radius: 0px;
+
     background-color: rgba(229,229,229,0.8);
-    border: 1px solid black;
+    
 }
 .partners{
     position:absolute;
@@ -300,14 +308,14 @@
     text-align: center;
 }
 .logoPartners{
-    position:absolute;
-    margin-top:74px;
+    
+    margin-top:74.23px;
     margin-left:37px;
     width:161,77px;
     height:161.77px;
 }
 .coffeePartners{
-    position:absolute;
+    
     margin-top:0px;
     margin-left:37px;
     width:161,77px;
@@ -319,7 +327,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 16px;
     margin-left: 178px;
-    margin-top:199px;
+    margin-top:147px;
 }
 .cofePartners{
     font-size: 14px;
@@ -377,23 +385,38 @@
     margin-top: 378.23px;
 }
 .Sale{
-    position:absolute;
-    height:383px;
-    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 372px;
+    width: 320px;
+    left: 0px;
+    top: 1764px;
+    border-radius: 0px;
+
+    
+    
 }
 .sales{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 22px;
-    margin-top:921px;
-    margin-left: 26px;
-    position: relative;
+  
+    height: 83px;
+width: 320px;
+left: 14px;
+top: 29px;
+
+text-align: center;
+padding-top:29px;
+
+
+
 }
 .carousel{
-    position:absolute;
-    border:2px solid #414142;
-    margin-top:32px;
+
+  position: absolute;
+
+    margin-top:0px;
     width: 320px;
     height:172px;
 
@@ -426,12 +449,15 @@
     
 }
 .welcome{
+    margin-left: auto;
+    margin-right: auto;
     background-color: #21252B;
-    position: absolute;
-    margin-top: 1272px;
     height: 293px;
-    width:320px;
-
+    width: 320px;
+    left: 0px;
+    top: 2136px;
+    border-radius: 0px;
+  
 }
 .textWelcome{
     font-weight: bold;
@@ -473,13 +499,17 @@
     text-align: center;
     padding-top:12px; 
     border-radius: 5px;
+    cursor: pointer;
 }
 .numbers{
-    position: absolute;
-    height:203px;
-    width: 320px;
- 
-    margin-top: 1629px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 203px;
+width: 320px;
+left: 1px;
+top: 2429px;
+border-radius: 0px;
+
 
 }
 .man{
@@ -497,13 +527,19 @@
     height: 37.79px;
 }
 .number1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     margin-left: 38px;
     margin-top:61px;
     font-weight:bold;
     font-size:54px;
+    line-height: 16px;
     height:41px;
     width: 103px;
+    font-style: normal;
+
+
+    
     
 }
 
@@ -513,8 +549,11 @@
     margin-top:61px;
     font-weight:bold;
     font-size:54px;
+    line-height: 16px;
     height:41px;
     width: 103px;
+    font-style:normal;
+
 }
 .users{
 
@@ -525,6 +564,17 @@
     width: 139px;
     letter-spacing: -0.05em;
     padding-top:11px;
+
+    
+
+font-family: SF UI Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 0px;
+
+text-align: left;
+
 }
 .numberCoffee{
     position: absolute;
@@ -532,6 +582,224 @@
     margin-top: 119px;
     height:17px;
     width: 139px;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.5em;
     padding-top:11px;
+
+
+font-family: SF UI Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 0px;
+letter-spacing: 0em;
+text-align: left;}
+
+
+.highLetters{
+font-size: 14px;
+font-weight: 500;
+
+
+
+}
+
+.reviews{
+    
+    width:320px;
+    height:481px;
+    top:2632px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#DFDFDFCC ;
+
+    
+
+}
+
+.Rev{
+   
+height: 99px;
+
+font-family: SF UI Display;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+
+
+text-align: center;
+letter-spacing: -0.165px;
+text-transform: uppercase;
+
+color: #000000;
+padding-top:28px;
+}
+
+
+.second{
+    width: 320px;
+    height:172px;
+   
+}
+.allR{
+  
+    width: 289px;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: 40px;
+    
+    background: rgba(255, 255, 255, 0.72);
+    border: 0.5px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 8px;
+  
+
+    font-family: SF UI Display;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+
+text-align: center;
+padding-top:11px;
+color: #000000;
+}
+
+.order{
+  
+width: 289px;
+height: 49px;
+margin-left: 15px;
+margin-top: 42px;
+
+background: #21252B;
+border-radius: 8px;
+
+
+
+font-family: SF UI Display;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+padding-top:14px;
+
+}
+.footer{
+height: 377px;
+width: 320px;
+left: 0px;
+top: 3113px;
+
+border-radius: 0px;
+margin-left: auto;
+margin-right: auto;
+background-color: #21252B;
+}
+.FC{
+
+width: 39px;
+height: 22px;
+margin-left: 19px;
+
+
+font-family: SF UI Display;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+padding-top:30px;
+}
+
+.mailAdress{
+    
+height:20px;
+width: 130px;
+margin-top: 20px;
+padding-top: 20px;
+margin-left: 19px;
+
+font-family: SF UI Display;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.letter{
+    padding-right:5px;
+}
+.CDA{
+    margin-left: 19px;
+    width: 265px;
+    height:108px;
+    font-family: SF UI Display;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+margin-top: 39px;
+
+align-items: left;
+
+color: #FFFFFF;
+padding-bottom: 0px;
+
+}
+.userCDA{
+    width: 177px;
+height: 28px;
+    margin-top: 0px;
+   
+    font-family: SF UI Display;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 28px;
+
+color: #8A8A8E;
+
+}
+.info{
+width: 187px;
+height: 112px;
+margin-left: 20px;
+
+
+font-family: SF UI Display;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 28px;
+
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.allRights{
+    margin-top:21px;
+    margin-left:120px;
+    width: 87px;
+    height:10px;
+    font-family: SF UI Display;
+font-style: normal;
+font-weight: 300;
+font-size: 8px;
+line-height: 10px;
+
+color: #FFFFFF;
+
+}
+.rights{
+    padding-right: 5px;
+    padding-bottom:3px;
 }

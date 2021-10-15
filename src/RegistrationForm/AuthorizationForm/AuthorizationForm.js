@@ -91,12 +91,15 @@ function AuthorizationForm() {
   if (redirect) {
     return <Redirect to="MainPage" />;
   }
+  function MainPage() {
+    window.location = "/MainPage";
+  }
 
   return (
     <div className="wrapper">
-      <a href="#">
+      <div onClick={MainPage}>
         <img className="Icon" src="/image/Icon.svg" />
-      </a>
+      </div>
 
       <img className="logoC" src="/image/logo.svg" />
 
