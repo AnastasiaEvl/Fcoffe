@@ -1,0 +1,120 @@
+
+
+.wrapper2{
+    position:absolute;
+    width:100%;
+    height:3550px;
+  
+}
+.lineG{
+    margin-left: auto;
+    margin-right: auto;
+    top:16px;
+    width: 320px;
+height: 10px;
+}
+
+    
+    .cdaTitle{
+        margin-left: auto;
+        margin-right: auto;
+width: 321px;
+height: 84px;
+
+top: 123px;
+
+font-family: SF UI Display;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+    }
+
+.headerCDA{
+
+    margin-top:29px;
+    height:84px;
+    width: 287px;
+
+}
+.textCDA{
+    margin-left: auto;
+    margin-right: auto;
+    height: 542px;
+    width: 288px;
+
+
+border-radius: 0px;
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+margin-top: 29px;
+
+
+
+}
+.innerText{
+width: 240px;
+height: 467px;
+left: 43px;
+margin-top:25px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+padding-top: 25px;
+padding-left:27px;
+
+color: #000000;
+
+}
+.onMain{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:32px ;
+    height:45px;
+    width: 288px;
+    background: rgba(255, 255, 255, 0.72);
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 8px;
+
+
+font-family: SF UI Display;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+text-align: center;
+padding-top: 10px;
+color: #000000;
+
+
+}
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:32px;
+    height:377px;
+    width: 320px;
+    background-color: black;
+    color:white;
+}
+    
+    
+    

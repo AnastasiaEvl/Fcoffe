@@ -10,13 +10,13 @@ function MainPage() {
   function Rform() {
     window.location = "/Rform";
   }
+
   return (
     <div className="wrapper2">
-      <div className="menu">
+      <div className="menu1">
         <img className="burger" src="./image/burgerMenu.svg" />
 
         <a href="#">
-          {" "}
           <img className="ru" src="./image/RU.svg" />
         </a>
         <img className="logo" src="./image/logo.svg" />
@@ -58,7 +58,7 @@ function MainPage() {
       <div className="counter">
         <div className="partners">НАШИ ПАРТНЕРЫ</div>
         <div>
-          <img className="logoPartners" src="/image/hands.png" />
+          <img className="logoPartners" src="/image/partners.png" />
           партнеров
         </div>
         <div>
