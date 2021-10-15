@@ -1,23 +1,21 @@
 import React from "react";
 import "../CDA/CDA.css";
-import MainPage from "../MainPage/MainPage";
+
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
 
 function Cda() {
   function Aform() {
     window.location = "/Aform";
   }
 
-  function MainPage() {
-    window.location = "/MainPage";
-  }
+  function MainPage() {}
   return (
     <div className="wrapper2">
       <div className="menu1">
-        <img className="burger" src="./image/burgerMenu.svg" />
-
         <a href="#">
           <img className="ru" src="./image/RU.svg" />
         </a>
+        <BurgerMenu></BurgerMenu>
         <img className="logo" src="./image/logo.svg" />
         <div className="enter" onClick={Aform}>
           Войти

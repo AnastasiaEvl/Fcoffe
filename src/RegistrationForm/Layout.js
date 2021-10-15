@@ -6,17 +6,19 @@ import ForgotForm from "./ForgotForm/ForgotForm";
 import MainPage from "../MainPage/MainPage";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import Cda from "../CDA/CDA";
+import Legal from "../Legal/Legal";
 
 function Layout() {
   return (
     <BrowserRouter>
-      <Route exact path="/" render={() => <RegistrationForm />} />
+      <Route exact path="/" render={() => <MainPage />} />
       <Route path="/Aform" render={() => <AuthorizationForm />} />
       <Route path="/Fform" render={() => <ForgotForm />} />
       <Route path="/Rform" render={() => <RegistrationForm />} />
       <Route path="/MainPage" render={() => <MainPage />} />
       <Route path="/BMenu" render={() => <BurgerMenu />} />
       <Route path="/CDA" render={() => <Cda />} />
+      <Route path="/Legal" render={() => <Legal />} />
     </BrowserRouter>
   );
 }

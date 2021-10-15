@@ -21,13 +21,10 @@ const BurgerMenu = () => {
     <div className="burger">
       <nav>
         <div className="burger_btn" onClick={() => setMenuActive(!menuActive)}>
-          <img src="/image/burgerMenu.svg" />
+          <img className="bur" src="/image/burgerMenu.svg" />
           <span />
         </div>
       </nav>
-      <main>
-        <MainPage></MainPage>
-      </main>
       <Menu active={menuActive} setActive={setMenuActive} items={items} />
     </div>
   );
