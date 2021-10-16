@@ -96,52 +96,122 @@
     cursor: pointer;
 }
 
-.footers {
-    background-color: #21252B;
+.footers3 {
+    height:234px;
+    width: 320px;
+    left: 0px;
+    margin-top: 125px;
+
+    border-radius: 0px;
     margin-left: auto;
     margin-right: auto;
-    height: 234px;
-    width: 320px;
-    color: white;
-    margin-top: 125px;
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 28px;
-    color: #FFFFFF;;
+    background-color: #21252B;
 }
 
 .FC {
-    height: 22px;
+
     width: 39px;
-    left: 19px;
-    color: white;
+    height: 22px;
+    margin-left: 19px;
+
+
     font-family: SF UI Display;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
-
+    padding-top: 21px;
 }
 
-.FastCoffe {
-    margin-left: 18px;
-    margin-top: 59px;
-    color: white;
+.mailAdress {
+
+    height: 20px;
+    width: 130px;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 19px;
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+.letter {
+    padding-right: 5px;
+}
+
+.CDA {
+    margin-left: 19px;
+    width: 97px;
+    height: 18px;
     font-family: SF UI Display;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 18px;
+    margin-top: 39px;
+
+    align-items: left;
+
+    color: #FFFFFF;
+    padding-bottom: 0px;
+
 }
 
-.LastInf {
-    margin-top: 43px;
-    margin-left: 18px;
-    height: 187px;
-    width: 112px;
-    font-size: 9px;
-    line-height: 14px;
+.userCDA {
+    width: 177px;
+    height: 28px;
+    margin-top: 0px;
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+
+    color: #8A8A8E;
+
 }
+
+.info {
+    width: 187px;
+    height: 112px;
+    margin-left: 20px;
+
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+
+
+
+    color: #FFFFFF;
+}
+
+.allRights {
+    margin-top: 21px;
+    margin-left: 120px;
+    width: 87px;
+    height: 10px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 10px;
+
+    color: #FFFFFF;
+
+}
+
+.rights {
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+

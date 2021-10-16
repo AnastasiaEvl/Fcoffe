@@ -172,7 +172,7 @@ function AuthorizationForm() {
               </tr>
               <tr>
                 <div className="registration_social_sites">
-                  Регистрация через социальные сети
+                  Войти через социальные сети
                 </div>
               </tr>
               <tr>

@@ -11,6 +11,9 @@ function MainPage() {
   function Rform() {
     window.location = "/Rform";
   }
+  function Legal() {
+    window.location = "/Legal";
+  }
 
   return (
     <div className="wrapper2">
@@ -144,29 +147,19 @@ function MainPage() {
           <div className="order">Разместить заказ</div>
         </a>
       </div>
-      <div className="footer">
+      <div className="footer3">
         <div className="FC">FC</div>
-        <a href="#" className="a">
-          <div className="mailAdress">
-            <img className="letter" src="image/mail.png" />
-            hello@fastcoffee.com
-          </div>
-        </a>
-        <div className="CDA">
-          ООО “Фаст Кофе” Свидетельство о регистрации номер 123456789 Выдано
-          Минским горисполкомом Дата выдачи 20.09.2021 УНП 123456789 220034, г.
-          Минск, пл. Сободы, 17
-          <a href="#" className="a">
-            <div className="userCDA">Пользовательское соглашение</div>
-          </a>
-        </div>
+        <a href="#" className="a"></a>
+        <div className="CDA">ООО “Фаст Кофе”</div>
         <div className="info">
-          Юридическая информация
-          <br /> Стать партнером
-          <br />
-          Связаться с нами
-          <br />
-          Оставить отзыв
+          <div className="JI" onClick={Legal}>
+            Юридическая информация
+          </div>
+          <div>Стать партнером</div>
+
+          <div>Связаться с нами</div>
+
+          <div>Оставить отзыв</div>
         </div>
         <div className="allRights">
           <img className="rights" src="image/copy.png" />

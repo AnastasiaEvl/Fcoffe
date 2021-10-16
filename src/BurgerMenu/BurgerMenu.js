@@ -11,7 +11,7 @@ const BurgerMenu = () => {
     { value: "Наши партнеры", href: "/main3" },
     { value: "Акционные предложения", href: "/main4" },
     { value: "Отзывы о нас", href: "/main4" },
-    { value: "Юридическая информация", href: "/main4" },
+    { value: "Юридическая информация", href: "/Legal" },
     { value: "Контактные данные", href: "/main4" },
     { value: "Стать партнером", href: "/main4" },
     { value: "Связаться с нами", href: "/main4" },

@@ -7,8 +7,13 @@ function Cda() {
   function Aform() {
     window.location = "/Aform";
   }
+  function Legal() {
+    window.location = "/Legal";
+  }
 
-  function MainPage() {}
+  function MainPage() {
+    window.location = "/MainPage";
+  }
   return (
     <div className="wrapper2">
       <div className="menu1">
@@ -34,10 +39,31 @@ function Cda() {
           Здесь будет размещено пользовательское соглашение о сборе данных
         </div>
       </div>
-      <div className="onMain" onClick={MainPage}>
-        На главную
+      <div className="onMain2">
+        <div className="onMain1" onClick={MainPage}>
+          На главную
+        </div>
       </div>
-      <div className="footer">БУДУТ КОРРЕКТИРОВКИ</div>
+
+      <div className="footers4">
+        <div className="FC">FC</div>
+        <a href="#" className="a"></a>
+        <div className="CDA">ООО “Фаст Кофе”</div>
+        <div className="info">
+          <div className="JI1" onClick={Legal}>
+            Юридическая информация
+          </div>
+          <div>Стать партнером</div>
+
+          <div>Связаться с нами</div>
+
+          <div>Оставить отзыв</div>
+        </div>
+        <div className="allRights">
+          <img className="rights" src="image/copy.png" />
+          Все права защищены
+        </div>
+      </div>
     </div>
   );
 }

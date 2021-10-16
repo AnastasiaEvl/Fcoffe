@@ -733,11 +733,11 @@
 
 }
 
-.footer {
-    height: 377px;
+.footer3 {
+    height:234px;
     width: 320px;
     left: 0px;
-    top: 3113px;
+    margin-top: 0px;
 
     border-radius: 0px;
     margin-left: auto;
@@ -758,7 +758,7 @@
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
-    padding-top: 30px;
+    padding-top: 21px;
 }
 
 .mailAdress {
@@ -784,8 +784,8 @@
 
 .CDA {
     margin-left: 19px;
-    width: 265px;
-    height: 108px;
+    width: 97px;
+    height: 18px;
     font-family: SF UI Display;
     font-style: normal;
     font-weight: 300;
@@ -828,8 +828,6 @@
     line-height: 28px;
 
 
-    display: flex;
-    align-items: center;
 
     color: #FFFFFF;
 }
@@ -853,3 +851,9 @@
     padding-right: 5px;
     padding-bottom: 3px;
 }
+
+.JI{
+    cursor:pointer;
+}
+
+
