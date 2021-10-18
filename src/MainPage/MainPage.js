@@ -32,15 +32,8 @@ function MainPage() {
         <img className="mainpic" src="./image/banner1.png" />
       </div>
       <div className="steps">
-        <img className="coffeeFone" src="image/coffeFone.svg" />
-        <img className="line" src="image/pinkLine.svg" />
-        <img className="logo1" src="image/logo.svg" />
-        <img className="clocks" src="/image/clock.svg" />
-        <img className="list" src="/image/list.png" />
-        <img className="kindOfGoods" src="/image/KindOfGoods.svg" />
-        <img className="cup" src="/image/cup.svg" />
-        <img className="bank" src="/image/banks.png" />
-        <img className="heart" src="/image/heart.svg" />
+        <img className="coffeeFone" src="/image/coffeeFone.png" />
+        <img className="mainLine" src="/image/mainLine.png" />
         <img className="V" src="/image/V.svg" />
         <img className="V2" src="/image/V.svg" />
         <div className="text1">Приложение для заказа кофе онлайн</div>
@@ -59,16 +52,17 @@ function MainPage() {
           сохранение здоровья\минимизация контактов в условиях пандемии COVID-19
         </div>
       </div>
+
       <div className="counter">
         <div className="partners">НАШИ ПАРТНЕРЫ</div>
         <div>
           <img className="logoPartners" src="/image/partners.png" />
-          партнеров
         </div>
+        <div className="p">партнеров</div>
         <div>
           <img className="coffeePartners" src="/image/coffeePartners.svg" />
-          кофеен
         </div>
+        <div className="c">кофеен</div>
 
         <img className="hotfix" src="image/hotfix.svg" />
         <img className="yumy" src="image/yumy.svg" />
@@ -79,11 +73,12 @@ function MainPage() {
         <img className="zerno" src="image/Zerno.svg" />
         <img className="lavaza" src="image/lavazza.svg" />
       </div>
+
       <div className="Sale">
         <div className="sales">АКЦИОННЫЕ ПРЕДЛОЖЕНИЯ</div>
 
         <Carousel>
-          <Carousel.Item interval={1000}>
+          <Carousel.Item className="carousel" interval={1000}>
             <img className="first" src="image/sales.png" />
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
@@ -112,6 +107,7 @@ function MainPage() {
           Зарегистрироваться
         </div>
       </div>
+
       <div className="numbers">
         <img className="man" src="/image/man.png" />
         <img className="smallCup" src="/image/smallCup.png" />

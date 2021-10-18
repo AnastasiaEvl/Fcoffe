@@ -1,10 +1,9 @@
 .wrapper2 {
-    position: absolute;
     width: 100%;
-    height: 3550px;
+    max-width: 1000px;
+    height:auto;
 
 }
-
 .a {
     text-decoration: none;
 }
@@ -15,7 +14,7 @@
 
 .burger {
     position: absolute;
-    margin-left: 16px;
+    margin-left: 5%;
     margin-top: 37px;
 }
 
@@ -23,200 +22,139 @@
 
 
     height: 84px;
-    width: 321px;
+    width: 100%;
     border-radius: 0px;
+    position: fixed;
+    background-color: white;
+    z-index: 70;
+    margin-top: -85px;
 
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .ru {
     position: absolute;
-    margin-left: 54px;
+    margin-left: 16.875%;
     margin-top: 37px;
+    width:22px;
+    height: auto;
 }
 
 .logo {
     position: absolute;
     margin-top: 14px;
-    margin-left: 133px;
+    margin-left: 42%;
 
-    width: 54px;
-    height: 54px;
+    width: 4,5%;
+    height: auto;
 
 }
 
 .enter {
     position: absolute;
-    margin-left: 259px;
+    margin-left: 78%;
     margin-top: 33px;
-    margin-right: 13px;
+   
+  
     padding-top: 0px;
     cursor: pointer;
 }
 
 .mainpicture {
-    margin-left: auto;
-    margin-right: auto;
-
-    width: 321px;
-    height: 215px;
+  position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 84px;
 }
 
 .mainpic {
-    position: absolute;
-    width: 321px;
-    height: 215px;
-    z-index: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 3;
 }
 
 .steps {
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
     height: 567px;
-    width: 321px;
+    width: 100%;
     left: 0px;
-    top: 297px;
     border-radius: 0px;
+   
 
 }
 
 
 .coffeeFone {
     position: absolute;
-    z-index: 0;
-}
-
-.line {
-    position: absolute;
-    z-index: 1;
-    margin-left: 60px;
-    margin-right: 255px;
-    height: 568px;
-    width: 6px;
-
-}
-
-.logo1 {
-    position: absolute;
-    height: 88px;
-    width: 88px;
-    margin-left: 19px;
-    margin-top: 40px;
     z-index: 2;
-}
+    height:567px;
+    width: 100%;
+    left: 0px;
 
-.clocks {
+}
+.mainLine{
     position: absolute;
-    height: 38px;
-    width: 38px;
-    margin-left: 43px;
-    margin-top: 148px;
-    z-index: 2;
+    margin-left: 5.9375%;
 
+    margin-top: 0px;
+    z-index: 5;
 }
 
-.list {
-    position: absolute;
-    height: 38px;
-    width: 38px;
-    margin-left: 43px;
-    margin-top: 210px;
-    z-index: 2;
-}
-
-.kindOfGoods {
-    position: absolute;
-    height: 38px;
-    width: 38px;
-    margin-left: 43px;
-    margin-top: 272px;
-    z-index: 2;
-}
-
-.cup {
-    position: absolute;
-    height: 38px;
-    width: 38px;
-    margin-left: 43px;
-    margin-top: 334px;
-    z-index: 2;
-}
-
-.bank {
-    position: absolute;
-    height: 38px;
-    width: 38px;
-    margin-left: 43px;
-    margin-top: 396px;
-    z-index: 2;
-}
-
-.heart {
-    position: absolute;
-    height: 38px;
-    width: 38px;
-    margin-left: 43px;
-    margin-top: 458px;
-    z-index: 2;
-}
 
 .V {
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     height: 13.82px;
     width: 17px;
-    margin-top: 43.59px;
-    margin-left: 119px;
+    margin-top: 41.59px;
+    margin-left: 37.1875%;
 
 }
 
 .V2 {
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     height: 13.82px;
     width: 17px;
     margin-top: 93.59px;
-    margin-left: 119px;
+    margin-left: 37.1875%;
 }
 
 .text1 {
-    position: absolute;
-    z-index: 2;
+    position: relative;
+    z-index: 4;
     height: 52px;
     width: 172px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    margin-left: 142px;
-    margin-top: 32px;
-
-
+    margin-left: 44.375%;
+    margin-top: 41.59px;;
     font-weight: 600;
     line-height: 16px;
 }
 
 .text2 {
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     height: 52px;
     width: 172px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    margin-left: 143px;
-    margin-top: 83px;
+    margin-left: 44.375%;
+    margin-top: 0px;
     font-weight: 600;
     line-height: 16px;
 }
 
 .text3 {
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     height: 46px;
     width: 198px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
-    margin-left: 108px;
-    margin-top: 150px;
+    margin-left: 33.64%;
+    margin-top: 66px;
     font-weight: 300;
     line-height: 12px;
 
@@ -224,13 +162,13 @@
 
 .text4 {
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     height: 46px;
     width: 198px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
-    margin-left: 108px;
-    margin-top: 219px;
+    margin-left: 33.64%;
+    margin-top: 135px;
     font-weight: 300;
     line-height: 12px;
 
@@ -238,13 +176,13 @@
 
 .text5 {
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     height: 46px;
     width: 198px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
-    margin-left: 108px;
-    margin-top: 281px;
+    margin-left: 33.64%;
+    margin-top: 197px;
     font-weight: 300;
     line-height: 12px;
 
@@ -252,41 +190,29 @@
 
 .text6 {
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     height: 46px;
     width: 198px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
-    margin-left: 108px;
-    margin-top: 343px;
+    margin-left: 33.64%;
+    margin-top: 259px;
     font-weight: 300;
     line-height: 12px;
 
 }
 
-.text6 {
-    position: absolute;
-    z-index: 2;
-    height: 46px;
-    width: 198px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    margin-left: 108px;
-    margin-top: 343px;
-    font-weight: 300;
-    line-height: 12px;
 
-}
 
 .text7 {
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     height: 46px;
     width: 198px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
-    margin-left: 108px;
-    margin-top: 401px;
+    margin-left: 33.64%;
+    margin-top: 317px;
     font-weight: 300;
     line-height: 12px;
 
@@ -294,35 +220,39 @@
 
 .text8 {
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     height: 46px;
     width: 198px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
-    margin-left: 108px;
-    margin-top: 464px;
+    margin-left: 33.64%;
+    margin-top: 380px;
     font-weight: 300;
     line-height: 12px;
 
 }
 
 .counter {
-    margin-left: auto;
-    margin-right: auto;
-    height: 900px;
-    width: 320px;
+   
+    position:absolute;
+    
+    width: 100%;
     left: 0px;
-    top: 864px;
+    height: 900px;
+    margin-top: 565px;
+ 
     border-radius: 0px;
 
     background-color: rgba(229, 229, 229, 0.8);
+    z-index: 4;
 
 }
 
 .partners {
     position: absolute;
+    width: 58.437%;
     margin-top: 40px;
-    margin-left: 79px;
+    margin-left: 24.68%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -332,99 +262,100 @@
 }
 
 .logoPartners {
+    position: absolute;
 
     margin-top: 74.23px;
-    margin-left: 37px;
-    width: 161, 77px;
+    margin-left: 11.56%;
+    width: 161.77px;
     height: 161.77px;
 }
 
 .coffeePartners {
+    position: absolute;
 
-    margin-top: 0px;
-    margin-left: 37px;
-    width: 161, 77px;
+    margin-top: 67px;
+    margin-left: 11.56%;
+    width: 161. 77px;
     height: 161.77px;
 }
 
-.partner {
-    font-size: 14px;
+.p{font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 16px;
-    margin-left: 178px;
+    margin-left: 58.12%;
     margin-top: 147px;
 }
-
-.cofePartners {
-    font-size: 14px;
+.c{font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 16px;
-    margin-left: 178px;
-    margin-top: 136px;
+    margin-left: 58.12%;
+    margin-top: 139.77px;
+
 }
 
 .hotfix {
     position: absolute;
-    margin-top: 8.95px;
-    margin-left: 53px;
-    height: 95, 34px;
-    width: 96, 1px;
+    margin-top: 88.95px;
+    margin-left: 16.56%;
+    height: 95. 34px;
+    width: 96. 1px;
 }
 
 .yumy {
     position: absolute;
-    margin-top: 11.23px;
-    margin-left: 180px;
+    margin-top: 88.95px;
+    margin-left:56.25%;
     width: 90px;
     height: 90px;
 }
 
 .guru {
     position: absolute;
-    margin-top: 134.23px;
-    margin-left: 53px;
+    margin-top: 214.23px;
+    margin-left:16.56%;
 }
 
 .cofix {
     position: absolute;
-    margin-top: 134.23px;
-    margin-left: 181px;
+    margin-top: 214.23px;
+    margin-left:56.25%;
 
 }
 
 .cofeSound {
     position: absolute;
-    margin-top: 257.63px;
-    margin-left: 53px;
+    margin-top: 337.63px;
+    margin-left: 16.56%;
 }
 
 
 .stantion {
     position: absolute;
-    margin-top: 254.27px;
-    margin-left: 180px;
+    margin-top: 337.63px;
+    margin-left:56.25%;
 }
 
 .zerno {
     position: absolute;
-    margin-left: 50px;
-    margin-top: 378.23px;
+    margin-left:16.56%;
+    margin-top: 458.23px;
 
 }
+
+
 
 .lavaza {
     position: absolute;
-    margin-left: 179px;
-    margin-top: 378.23px;
+    margin-left:56.25%;
+    margin-top: 458.23px;
 }
 
 .Sale {
-    margin-left: auto;
-    margin-right: auto;
+   position: absolute;
     height: 372px;
-    width: 320px;
+    width: 100%;
     left: 0px;
-    top: 1764px;
+    margin-top: 1465px;
     border-radius: 0px;
 
 
@@ -436,8 +367,8 @@
     font-size: 18px;
 
     height: 83px;
-    width: 320px;
-    left: 14px;
+    width: 100%;
+    left: 4.375%;
     top: 29px;
 
     text-align: center;
@@ -451,14 +382,14 @@
     position: absolute;
 
     margin-top: 0px;
-    width: 320px;
+    width: 100%;
     height: 172px;
 
 
 }
 
 .first {
-    width: 320px;
+    width: 100%;
     height: 172px;
     background-color: pink;
 
@@ -467,7 +398,7 @@
 .proposal {
     position: absolute;
     margin-top: 40px;
-    margin-left: 15px;
+    margin-left: 5%;
     border: 1px solid #414142;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
@@ -475,7 +406,7 @@
     line-height: 22px;
     text-align: center;
     height: 45px;
-    width: 288px;
+    width: 90.31%;
     border-radius: 5px;
     box-sizing: border-box;
     padding-top: 10px;
@@ -485,13 +416,12 @@
 }
 
 .welcome {
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    width:100%;
     background-color: #21252B;
     height: 293px;
-    width: 320px;
     left: 0px;
-    top: 2136px;
+    margin-top:1850px;
     border-radius: 0px;
 
 }
@@ -505,7 +435,7 @@
     height: 46px;
     position: absolute;
     margin-top: 46px;
-    margin-left: 16px;
+    margin-left: 5%;
 
 }
 
@@ -513,14 +443,14 @@
     color: #FFFFFF;
     position: absolute;
     margin-top: 92px;
-    margin-left: 17px;
+    margin-left: 5.3%;
     height: 99px;
     width: 173px;
 }
 
 .funCup {
     margin-top: 73px;
-    margin-left: 193px;
+    margin-left: 60.3%;
     width: 115px;
     height: 115px;
 
@@ -529,11 +459,11 @@
 .regButton {
     position: absolute;
     margin-top: 24px;
-    margin-left: 17px;
+    margin-left: 5.3125%;;
     font-size: 14px;
     font-weight: bold;
     background-color: #F7C1D9;
-    width: 288px;
+    width: 90.31%;
     height: 45px;
     position: absolute;
     text-align: center;
@@ -543,12 +473,11 @@
 }
 
 .numbers {
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
     height: 203px;
-    width: 320px;
+    width: 100%;
     left: 1px;
-    top: 2429px;
+    margin-top: 2140px;
     border-radius: 0px;
 
 
@@ -556,7 +485,7 @@
 
 .man {
     margin-top: 32px;
-    margin-left: 13px;
+    margin-left: 4.06%;
     position: absolute;
     width: 36px;
     height: 37px;
@@ -565,7 +494,7 @@
 .smallCup {
     position: absolute;
     margin-top: 32px;
-    margin-left: 173.11px;
+    margin-left: 54%;
     width: 37.79px;
     height: 37.79px;
 }
@@ -573,7 +502,7 @@
 .number1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
-    margin-left: 38px;
+    margin-left: 11.87%;
     margin-top: 61px;
     font-weight: bold;
     font-size: 54px;
@@ -587,7 +516,7 @@
 
 .number2 {
     position: absolute;
-    margin-left: 201px;
+    margin-left: 62.81%;
     margin-top: 61px;
     font-weight: bold;
     font-size: 54px;
@@ -601,7 +530,7 @@
 .users {
 
     position: absolute;
-    margin-left: 40px;
+    margin-left: 12.5%;
     margin-top: 119px;
     height: 17px;
     width: 139px;
@@ -621,7 +550,7 @@
 
 .numberCoffee {
     position: absolute;
-    margin-left: 204px;
+    margin-left: 63.75%;
     margin-top: 119px;
     height: 17px;
     width: 139px;
@@ -648,11 +577,11 @@
 
 .reviews {
 
-    width: 320px;
+    position: absolute;
+    width: 100%;
     height: 481px;
-    top: 2632px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 2300px;
+    
     background-color: #DFDFDFCC;
 
 
@@ -667,6 +596,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 20px;
+    
 
 
     text-align: center;
@@ -679,16 +609,16 @@
 
 
 .second {
-    width: 320px;
+    width: 100%;
     height: 172px;
 
 }
 
 .allR {
 
-    width: 289px;
+    width: 90.31%;
     height: 45px;
-    margin-left: 15px;
+    margin-left: 4.687%;
     margin-top: 40px;
 
     background: rgba(255, 255, 255, 0.72);
@@ -710,9 +640,9 @@
 
 .order {
 
-    width: 289px;
+    width: 90.31%;
     height: 49px;
-    margin-left: 15px;
+    margin-left: 4.687%;
     margin-top: 42px;
 
     background: #21252B;
@@ -734,14 +664,16 @@
 }
 
 .footer3 {
-    height:234px;
-    width: 320px;
+    position:absolute;
+
+    height:240px;
+    width: 100%;
     left: 0px;
-    margin-top: 0px;
+    margin-top: 2780px;
+
 
     border-radius: 0px;
-    margin-left: auto;
-    margin-right: auto;
+   
     background-color: #21252B;
 }
 
@@ -834,7 +766,7 @@
 
 .allRights {
     margin-top: 21px;
-    margin-left: 120px;
+    margin-left: 37.5%;
     width: 87px;
     height: 10px;
     font-family: SF UI Display;
