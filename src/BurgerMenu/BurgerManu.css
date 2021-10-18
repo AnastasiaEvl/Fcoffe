@@ -26,6 +26,8 @@ li {
     text-align: left;
     padding-left: 0px;
     margin-left: -110px;
+    text-decoration: none;
+    color: black;
 }
 
 ul {
@@ -33,6 +35,8 @@ ul {
     flex-direction: column;
     margin: 10px;
     margin-top: 40px;
+    text-decoration: none;
+    color: black;
 }
 
 .bur{

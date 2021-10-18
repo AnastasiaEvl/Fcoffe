@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./BurgerManu.css";
 import Menu from "./Menu/Menu";
-import MainPage from "../MainPage/MainPage";
 
 const BurgerMenu = () => {
   const [menuActive, setMenuActive] = useState(false);

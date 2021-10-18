@@ -13,6 +13,10 @@
     transform: translateX(0);
 }
 
+#A {text-decoration: none;
+        color: black;
+      }
+
 .blur {
     width: 80vw;
     height: 100vh;
