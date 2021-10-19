@@ -7,6 +7,7 @@ import MainPage from "../MainPage/MainPage";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import Cda from "../CDA/CDA";
 import Legal from "../Legal/Legal";
+import ContactUs from "../ContactUs/ContactUs";
 
 function Layout() {
   return (
@@ -19,6 +20,7 @@ function Layout() {
       <Route path="/BMenu" render={() => <BurgerMenu />} />
       <Route path="/CDA" render={() => <Cda />} />
       <Route path="/Legal" render={() => <Legal />} />
+      <Route path="/ContactUs" render={() => <ContactUs />} />
     </BrowserRouter>
   );
 }

@@ -1,34 +1,18 @@
 import React from "react";
 import "../CDA/CDA.css";
-
-import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import "../MainPage/MainPage.css";
+import Header from "../MainPage/Header";
+import Footer4 from "../CDA/Footer4";
+import LineG from "./LineG";
 
 function Cda() {
-  function Aform() {
-    window.location = "/Aform";
-  }
-  function Legal() {
-    window.location = "/Legal";
-  }
-
   function MainPage() {
     window.location = "/MainPage";
   }
   return (
-    <div className="wrapper2">
-      <div className="menu1">
-        <a href="#">
-          <img className="ru" src="./image/RU.svg" />
-        </a>
-        <BurgerMenu></BurgerMenu>
-        <img className="logo" src="./image/logo.svg" />
-        <div className="enter" onClick={Aform}>
-          Войти
-        </div>
-      </div>
-      <div className="lineG">
-        <img className="GLine" src="/image/GreyLine.png" />
-      </div>
+    <div className="wrapper3">
+      <Header />
+      <LineG />
       <div className="cdaTitle">
         <div className="headerCDA">
           Пользовательское соглашение о сборе данных
@@ -44,26 +28,7 @@ function Cda() {
           На главную
         </div>
       </div>
-
-      <div className="footers4">
-        <div className="FC">FC</div>
-        <a href="#" className="a"></a>
-        <div className="CDA">ООО “Фаст Кофе”</div>
-        <div className="info">
-          <div className="JI1" onClick={Legal}>
-            Юридическая информация
-          </div>
-          <div>Стать партнером</div>
-
-          <div>Связаться с нами</div>
-
-          <div>Оставить отзыв</div>
-        </div>
-        <div className="allRights">
-          <img className="rights" src="image/copy.png" />
-          Все права защищены
-        </div>
-      </div>
+      <Footer4 />
     </div>
   );
 }

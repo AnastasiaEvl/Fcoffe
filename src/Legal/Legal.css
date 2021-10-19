@@ -1,8 +1,8 @@
 .titleLegal {
-    margin-right: auto;
-    margin-left: auto;
+    position:absolute;
+    
     height: 98px;
-    width: 320px;
+    width: 100%;
     font-family: SF UI Display;
     font-style: normal;
     font-weight: bold;
@@ -17,24 +17,28 @@
 }
 
 .logoI {
-    margin-left: 43px;
+    position: absolute;
+    margin-left: 13.44%;
     margin-top: 20px;
 
 }
 
 .textLegal {
+    position: absolute;
     margin-top: 20px;
     padding-left: 0px;
-    width: 195px;
+    width: 60.937%;
     height: 44px;
+    margin-left:25.6%;
 
 }
 
 .OOO {
-    margin-right: auto;
-    margin-left: auto;
+   position: absolute;
     height: 273px;
-    width: 320px;
+    width: 100%;
+    margin-top: 98px;
+    margin-left: 5.31%;
 
     font-family: SF UI Display;
     font-style: normal;
@@ -46,9 +50,12 @@
     color: #000000;
 
 }
-
+.titleO{
+    margin-left:5.3%;
+    width:43.4%;
+}
 .legalAdress {
-    width: 286px;
+    width: 89%;
     height: 144px;
     margin-top: 8px;
     font-family: SF UI Display;
@@ -57,10 +64,17 @@
     font-size: 14px;
     line-height: 18px;
     color: #000000;
+    margin-left: 5.31%;
+    text-align: left
+;
+ 
 }
 
 .legalEmails {
     margin-top: 21px;;
+    margin-left: 5.31%;
+
+
 }
 
 .letters {
@@ -72,7 +86,7 @@
 .CdaLink {
     margin-top: 26px;
     height: 36px;
-    width: 287px;
+    width: 89%;
     font-family: SF UI Display;
     font-style: normal;
     font-weight: bold;
@@ -82,136 +96,27 @@
     align-items: center;
     color: #646871;
     cursor: pointer;
+    margin-left: 5%;
 }
 
-.onMain {
+.onMain1 {
+    position: absolute;
     margin-top: 35px;
-    margin-left: 16px;
+    margin-left: 5%;
     height: 45px;
-    width: 288px;
+    width: 83%;
     background: rgba(255, 255, 255, 0.72);
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
     border-radius: 8px;
     cursor: pointer;
-}
-
-.footers3 {
+}.footer5{
+    position: absolute;
     height:234px;
-    width: 320px;
+    width: 100%;
     left: 0px;
-    margin-top: 125px;
-
+    margin-top: 496px;
     border-radius: 0px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: #21252B;
-}
-
-.FC {
-
-    width: 39px;
-    height: 22px;
-    margin-left: 19px;
-
-
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
-    padding-top: 21px;
-}
-
-.mailAdress {
-
-    height: 20px;
-    width: 130px;
-    margin-top: 20px;
-    padding-top: 20px;
-    margin-left: 19px;
-
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
-
-    color: #FFFFFF;
-}
-
-.letter {
-    padding-right: 5px;
-}
-
-.CDA {
-    margin-left: 19px;
-    width: 97px;
-    height: 18px;
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 18px;
-    margin-top: 39px;
-
-    align-items: left;
-
-    color: #FFFFFF;
-    padding-bottom: 0px;
-
-}
-
-.userCDA {
-    width: 177px;
-    height: 28px;
-    margin-top: 0px;
-
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 28px;
-
-    color: #8A8A8E;
-
-}
-
-.info {
-    width: 187px;
-    height: 112px;
-    margin-left: 20px;
-
-
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 28px;
-
-
-
-    color: #FFFFFF;
-}
-
-.allRights {
-    margin-top: 21px;
-    margin-left: 120px;
-    width: 87px;
-    height: 10px;
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 8px;
-    line-height: 10px;
-
-    color: #FFFFFF;
-
-}
-
-.rights {
-    padding-right: 5px;
-    padding-bottom: 3px;
 }
 

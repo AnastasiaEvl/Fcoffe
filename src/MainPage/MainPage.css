@@ -1,9 +1,10 @@
 .wrapper2 {
     width: 100%;
     max-width: 1000px;
-    height:auto;
+    height: auto;
 
 }
+
 .a {
     text-decoration: none;
 }
@@ -35,16 +36,16 @@
     position: absolute;
     margin-left: 16.875%;
     margin-top: 37px;
-    width:22px;
+    width: 22px;
     height: auto;
 }
 
 .logo {
     position: absolute;
-    margin-top: 14px;
+    margin-top: 20px;
     margin-left: 42%;
 
-    width: 4,5%;
+    width: 4, 5%;
     height: auto;
 
 }
@@ -53,14 +54,14 @@
     position: absolute;
     margin-left: 78%;
     margin-top: 33px;
-   
-  
+
+
     padding-top: 0px;
     cursor: pointer;
 }
 
 .mainpicture {
-  position: relative;
+    position: relative;
     width: 100%;
     height: auto;
     margin-top: 84px;
@@ -79,7 +80,7 @@
     width: 100%;
     left: 0px;
     border-radius: 0px;
-   
+
 
 }
 
@@ -87,12 +88,13 @@
 .coffeeFone {
     position: absolute;
     z-index: 2;
-    height:567px;
+    height: 567px;
     width: 100%;
     left: 0px;
 
 }
-.mainLine{
+
+.mainLine {
     position: absolute;
     margin-left: 5.9375%;
 
@@ -203,7 +205,6 @@
 }
 
 
-
 .text7 {
     position: absolute;
     z-index: 4;
@@ -233,14 +234,14 @@
 }
 
 .counter {
-   
-    position:absolute;
-    
+
+    position: absolute;
+
     width: 100%;
     left: 0px;
     height: 900px;
     margin-top: 565px;
- 
+
     border-radius: 0px;
 
     background-color: rgba(229, 229, 229, 0.8);
@@ -270,22 +271,34 @@
     height: 161.77px;
 }
 
+.counterStyle {
+    position: absolute;
+
+    margin-top: 67px;
+    margin-left: 11.56%;
+    width: 161.77px;
+    height: 161.77px;
+}
+
 .coffeePartners {
     position: absolute;
 
     margin-top: 67px;
     margin-left: 11.56%;
-    width: 161. 77px;
+    width: 161.77px;
     height: 161.77px;
 }
 
-.p{font-size: 14px;
+.p {
+    font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 16px;
     margin-left: 58.12%;
     margin-top: 147px;
 }
-.c{font-size: 14px;
+
+.c {
+    font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 16px;
     margin-left: 58.12%;
@@ -297,14 +310,14 @@
     position: absolute;
     margin-top: 88.95px;
     margin-left: 16.56%;
-    height: 95. 34px;
-    width: 96. 1px;
+    height: 95.34px;
+    width: 96.1px;
 }
 
 .yumy {
     position: absolute;
     margin-top: 88.95px;
-    margin-left:56.25%;
+    margin-left: 56.25%;
     width: 90px;
     height: 90px;
 }
@@ -312,13 +325,13 @@
 .guru {
     position: absolute;
     margin-top: 214.23px;
-    margin-left:16.56%;
+    margin-left: 16.56%;
 }
 
 .cofix {
     position: absolute;
     margin-top: 214.23px;
-    margin-left:56.25%;
+    margin-left: 56.25%;
 
 }
 
@@ -332,26 +345,25 @@
 .stantion {
     position: absolute;
     margin-top: 337.63px;
-    margin-left:56.25%;
+    margin-left: 56.25%;
 }
 
 .zerno {
     position: absolute;
-    margin-left:16.56%;
+    margin-left: 16.56%;
     margin-top: 458.23px;
 
 }
-
 
 
 .lavaza {
     position: absolute;
-    margin-left:56.25%;
+    margin-left: 56.25%;
     margin-top: 458.23px;
 }
 
 .Sale {
-   position: absolute;
+    position: absolute;
     height: 372px;
     width: 100%;
     left: 0px;
@@ -417,11 +429,11 @@
 
 .welcome {
     position: absolute;
-    width:100%;
+    width: 100%;
     background-color: #21252B;
     height: 293px;
     left: 0px;
-    margin-top:1850px;
+    margin-top: 1850px;
     border-radius: 0px;
 
 }
@@ -581,7 +593,7 @@
     width: 100%;
     height: 481px;
     margin-top: 2300px;
-    
+
     background-color: #DFDFDFCC;
 
 
@@ -596,7 +608,6 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 20px;
-    
 
 
     text-align: center;
@@ -664,16 +675,12 @@
 }
 
 .footer3 {
-    position:absolute;
-
-    height:240px;
+    position: absolute;
+    height: 240px;
     width: 100%;
     left: 0px;
     margin-top: 2780px;
-
-
     border-radius: 0px;
-   
     background-color: #21252B;
 }
 
@@ -681,7 +688,7 @@
 
     width: 39px;
     height: 22px;
-    margin-left: 19px;
+    margin-left: 5.9%;
 
 
     font-family: SF UI Display;
@@ -699,7 +706,7 @@
     width: 130px;
     margin-top: 20px;
     padding-top: 20px;
-    margin-left: 19px;
+    margin-left: 5.9%;
 
     font-family: SF UI Display;
     font-style: normal;
@@ -715,7 +722,7 @@
 }
 
 .CDA {
-    margin-left: 19px;
+    margin-left: 5.9%;
     width: 97px;
     height: 18px;
     font-family: SF UI Display;
@@ -748,9 +755,9 @@
 }
 
 .info {
-    width: 187px;
+    width: 58.4%;
     height: 112px;
-    margin-left: 20px;
+    margin-left: 6.25%;
 
 
     font-family: SF UI Display;
@@ -760,14 +767,13 @@
     line-height: 28px;
 
 
-
     color: #FFFFFF;
 }
 
 .allRights {
     margin-top: 21px;
     margin-left: 37.5%;
-    width: 87px;
+    width: 27.187%;
     height: 10px;
     font-family: SF UI Display;
     font-style: normal;
@@ -784,8 +790,27 @@
     padding-bottom: 3px;
 }
 
-.JI{
-    cursor:pointer;
+.JI {
+    cursor: pointer;
 }
 
 
+.footer4 {
+    position: absolute;
+    height: 240px;
+    width: 100%;
+    left: 0px;
+    margin-top: 802px;
+    border-radius: 0px;
+    background-color: #21252B;
+}
+
+.footer5 {
+    position: absolute;
+    height: 234px;
+    width: 100%;
+    left: 0px;
+    margin-top: 496px;
+    border-radius: 0px;
+    background-color: #21252B;
+}

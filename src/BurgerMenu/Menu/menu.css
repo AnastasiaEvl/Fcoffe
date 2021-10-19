@@ -7,6 +7,7 @@
     transition: all 0.4s;
     background-color: white;
     z-index:50;
+    margin-top: 25px;
 }
 
 .menu.active {

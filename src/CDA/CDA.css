@@ -1,21 +1,33 @@
 
+.wrapper3{
 
+        width: 100%;
+        max-width: 1000px;
+        height:auto;
+    
+    
+}
 .lineG{
-    margin-left: auto;
-    margin-right: auto;
-    top:16px;
-    width: 320px;
-height: 10px;
+    position: relative;
+    margin-top: 84px;
+    width: 100%;
+    height: 10px;
+}
+.GLine{
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    height: 10px;
 }
 
     
-    .cdaTitle{
-        margin-left: auto;
-        margin-right: auto;
-width: 321px;
+.cdaTitle{
+position:absolute;
+width: 100%;
 height: 84px;
+margin-left: 3.3125%;
 
-top: 123px;
+margin-top: 24px;
 
 font-family: SF UI Display;
 font-style: normal;
@@ -36,29 +48,30 @@ color: #000000;
 
     margin-top:29px;
     height:84px;
-    width: 287px;
+    width: 89.6875%;
 
 }
 .textCDA{
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
     height: 568px;
-    width: 288px;
+    width: 90%;
 
 
 border-radius: 0px;
 background: #FFFFFF;
 border: 1px solid #C4C4C4;
 box-sizing: border-box;
-margin-top: 29px;
+margin-top: 99px;
+margin-left:5.312%;
+margin-right: 4.6875%;
 
 
 
 }
 .innerText{
-width: 240px;
+width: 75%;
 height: 467px;
-left: 43px;
+left: 13.437%;
 margin-top:25px;
 
 font-family: Roboto;
@@ -77,18 +90,17 @@ color: #000000;
 }
 .onMain2{
     height: 135px;
-    width:320px;
-    margin-right: auto;
-    margin-left: auto;
+    width:100%;
+    position:absolute;
+    margin-top:712px;
+  
 
 }
 .onMain1{
    
-  
-    margin-top:35px ;
-    margin-left: 16px;
+    margin-left: 5%;
     height:45px;
-    width: 288px;
+    width: 90%;
     background: rgba(255, 255, 255, 0.72);
 border: 1px solid #C4C4C4;
 cursor: pointer;
@@ -100,138 +112,13 @@ font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
+
 
 text-align: center;
 padding-top: 10px;
 color: #000000;
 
-
 }
-.footers4 {
-    margin-right:auto;
-    margin-left: auto;
-    height:234px;
-    width: 320px;
-    left: 0px;
-    margin-top: 0px;
-
-    border-radius: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #21252B;
-}
-
-.FC {
-
-    width: 39px;
-    height: 22px;
-    margin-left: 19px;
-
-
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
-    padding-top: 21px;
-}
-
-.mailAdress {
-
-    height: 20px;
-    width: 130px;
-    margin-top: 20px;
-    padding-top: 20px;
-    margin-left: 19px;
-
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
-
-    color: #FFFFFF;
-}
-
-.letter {
-    padding-right: 5px;
-}
-
-.CDA {
-    margin-left: 19px;
-    width: 97px;
-    height: 18px;
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 18px;
-    margin-top: 39px;
-
-    align-items: left;
-
-    color: #FFFFFF;
-    padding-bottom: 0px;
-
-}
-
-.userCDA {
-    width: 177px;
-    height: 28px;
-    margin-top: 0px;
-
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 28px;
-
-    color: #8A8A8E;
-
-}
-.JI1{
-    cursor:pointer;
-}
-
-.info {
-    width: 187px;
-    height: 112px;
-    margin-left: 20px;
-
-
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 28px;
-
-
-
-    color: #FFFFFF;
-}
-
-.allRights {
-    margin-top: 21px;
-    margin-left: 120px;
-    width: 87px;
-    height: 10px;
-    font-family: SF UI Display;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 8px;
-    line-height: 10px;
-
-    color: #FFFFFF;
-
-}
-
-.rights {
-    padding-right: 5px;
-    padding-bottom: 3px;
-}
-
 
     
     

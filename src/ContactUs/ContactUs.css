@@ -1,0 +1,39 @@
+
+.titleOfContact{
+    position: absolute;
+    width:100%;
+
+}
+
+.Letter{
+    position:absolute;
+    margin-top:14px;
+    margin-left: 12.5%;
+    height:38.04px;
+    width:46.82px;
+
+}
+.InnerTitle{
+    position: absolute;
+    margin-top:20px;
+    margin-left: 30%;
+    width:56.6%;
+    height:28px;
+
+    
+font-family: SF UI Display;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+
+color: #000000;
+
+}

@@ -1,12 +1,11 @@
 import React from "react";
 import "./Legal.css";
-import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import "../MainPage/MainPage.css";
+import Header from "../MainPage/Header";
+import LineG from "../CDA/LineG";
+import Footer5 from "./Footer5";
 
 function Legal() {
-  function Aform() {
-    window.location = "/Aform";
-  }
-
   function CDA() {
     window.location = "/CDA";
   }
@@ -17,19 +16,8 @@ function Legal() {
 
   return (
     <div className="wrapper2">
-      <div className="menu1">
-        <a href="#">
-          <img className="ru" src="./image/RU.svg" />
-        </a>
-        <BurgerMenu></BurgerMenu>
-        <img className="logo" src="./image/logo.svg" />
-        <div className="enter" onClick={Aform}>
-          Войти
-        </div>
-      </div>
-      <div className="lineG">
-        <img className="GLine" src="/image/GreyLine.png" />
-      </div>
+      <Header />
+      <LineG />
       <div className="titleLegal">
         <img className="logoI" src="image/logoI.png" />
         <div className="textLegal">юридическая информация</div>
@@ -55,25 +43,7 @@ function Legal() {
           На главную
         </div>
       </div>
-      <div className="footers3">
-        <div className="FC">FC</div>
-        <a href="#" className="a"></a>
-        <div className="CDA">ООО “Фаст Кофе”</div>
-        <div className="info">
-          <div className="JI1" onClick={Legal}>
-            Юридическая информация
-          </div>
-          <div>Стать партнером</div>
-
-          <div>Связаться с нами</div>
-
-          <div>Оставить отзыв</div>
-        </div>
-        <div className="allRights">
-          <img className="rights" src="image/copy.png" />
-          Все права защищены
-        </div>
-      </div>
+      <Footer5 />
     </div>
   );
 }
