@@ -1,5 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
 
 function Counter() {
   const [loading, setLoading] = React.useState(false);
@@ -26,29 +27,38 @@ function Counter() {
       <div className="counterStyle">
         <CountUp
           end={25}
-          duration="3"
+          duration="2"
           onStart={onStart}
           onEnd={onEnd}
+          redraw={false}
           containerProps={containerProps}
-          style={{
-            fontFamily: "SF UI Display",
-            fontStyle: "normal",
-            fontWeight: "bold",
-            fontSize: "54px",
-            lineHeight: "16px",
-            zIndex: "5",
-            marginTop: "80px",
-            marginLeft: "31%",
-            position: "absolute",
-          }}
-        />
+        >
+          {({ countUpRef, start }) => (
+            <VisibilitySensor onChange={start} delayedCall>
+              <span
+                ref={countUpRef}
+                style={{
+                  fontFamily: "SF UI Display",
+                  fontStyle: "normal",
+                  fontWeight: "bold",
+                  fontSize: "54px",
+                  lineHeight: "16px",
+                  zIndex: "5",
+                  marginTop: "80px",
+                  marginLeft: "31%",
+                  position: "absolute",
+                }}
+              />
+            </VisibilitySensor>
+          )}
+        </CountUp>
       </div>
       <div className="p">партнеров</div>
       <div>
         <img
           className="coffeePartners"
           style={{ zIndex: "3px;" }}
-          src="/image/coffeePartners.svg"
+          src="/image/coffeePartners.png"
         />
       </div>
       <div className="counterStyle">
@@ -57,6 +67,7 @@ function Counter() {
           duration="3"
           onStart={onStart}
           onEnd={onEnd}
+          redraw={false}
           containerProps={containerProps}
           style={{
             fontFamily: "SF UI Display",
@@ -68,7 +79,26 @@ function Counter() {
             marginTop: "72px",
             position: "absolute",
           }}
-        />
+        >
+          {({ countUpRef, start }) => (
+            <VisibilitySensor onChange={start} delayedCall>
+              <span
+                ref={countUpRef}
+                style={{
+                  fontFamily: "SF UI Display",
+                  fontStyle: "normal",
+                  fontWeight: "bold",
+                  fontSize: "54px",
+                  lineHeight: "16px",
+                  zIndex: "5",
+                  marginTop: "80px",
+                  marginLeft: "28%",
+                  position: "absolute",
+                }}
+              />
+            </VisibilitySensor>
+          )}
+        </CountUp>
       </div>
       <div className="c">кофеен</div>
       <img className="hotfix" src="image/hotfix.svg" />

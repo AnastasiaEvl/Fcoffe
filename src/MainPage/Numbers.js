@@ -1,5 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
 
 function Counters() {
   const [loading, setLoading] = React.useState(false);
@@ -21,20 +22,33 @@ function Counters() {
         {" "}
         <CountUp
           end={163}
-          duration="3"
+          duration="2"
           onStart={onStart}
           onEnd={onEnd}
+          redraw={false}
           containerProps={containerProps}
-        />
+        >
+          {({ countUpRef, start }) => (
+            <VisibilitySensor onChange={start} delayedCall>
+              <span ref={countUpRef} />
+            </VisibilitySensor>
+          )}
+        </CountUp>
       </div>
       <div className="number2">
         <CountUp
           end={856}
-          duration="3"
+          duration="2"
           onStart={onStart}
           onEnd={onEnd}
           containerProps={containerProps}
-        />
+        >
+          {({ countUpRef, start }) => (
+            <VisibilitySensor onChange={start} delayedCall>
+              <span ref={countUpRef} />
+            </VisibilitySensor>
+          )}
+        </CountUp>
       </div>
       <div className="users">
         <p className="highLetters">ПОЛЬЗОВАТЕЛЕЙ</p> системы
