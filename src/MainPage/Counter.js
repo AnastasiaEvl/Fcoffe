@@ -20,14 +20,14 @@ function Counter() {
       <div>
         <img
           className="logoPartners"
-          style={{ zIndex: "3px;" }}
+          style={{ zIndex: "3" }}
           src="/image/partners.png"
         />
       </div>
       <div className="counterStyle">
         <CountUp
           end={25}
-          duration="2"
+          duration="4"
           onStart={onStart}
           onEnd={onEnd}
           redraw={false}
@@ -57,20 +57,20 @@ function Counter() {
       <div>
         <img
           className="coffeePartners"
-          style={{ zIndex: "3px;" }}
+          style={{ zIndex: "3" }}
           src="/image/coffeePartners.png"
         />
       </div>
       <div className="counterStyle">
         <CountUp
           end={114}
-          duration="3"
+          duration="4"
           onStart={onStart}
           onEnd={onEnd}
           redraw={false}
           containerProps={containerProps}
           style={{
-            // fontFamily: "SF UI Display",
+            fontFamily: "SF UI Display",
             fontStyle: "normal",
             fontWeight: "bold",
             fontSize: "54px",
@@ -85,7 +85,7 @@ function Counter() {
               <span
                 ref={countUpRef}
                 style={{
-                  // fontFamily: "SF UI Display",
+                  fontFamily: "SF UI Display",
                   fontStyle: "normal",
                   fontWeight: "bold",
                   fontSize: "54px",
