@@ -1,3 +1,4 @@
+import { flexbox } from "@mui/system";
 import React from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
@@ -35,7 +36,7 @@ function Counter() {
         >
           {({ countUpRef, start }) => (
             <VisibilitySensor onChange={start} delayedCall>
-              <span
+              <div
                 ref={countUpRef}
                 style={{
                   // fontFamily: "SF UI Display",
@@ -44,9 +45,15 @@ function Counter() {
                   fontSize: "54px",
                   lineHeight: "16px",
                   zIndex: "5",
-                  marginTop: "80px",
-                  marginLeft: "31%",
+                  marginTop: "45px",
+                  marginLeft: "25%",
                   position: "absolute",
+                  width: "93.19px",
+                  height: "75px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  paddingTop: "0px",
                 }}
               />
             </VisibilitySensor>
@@ -82,7 +89,7 @@ function Counter() {
         >
           {({ countUpRef, start }) => (
             <VisibilitySensor onChange={start} delayedCall>
-              <span
+              <div
                 ref={countUpRef}
                 style={{
                   fontFamily: "SF UI Display",
@@ -91,9 +98,15 @@ function Counter() {
                   fontSize: "54px",
                   lineHeight: "16px",
                   zIndex: "5",
-                  marginTop: "80px",
-                  marginLeft: "28%",
+                  marginTop: "40px",
+                  marginLeft: "24%",
                   position: "absolute",
+                  width: "93.19px",
+                  height: "75px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  paddingTop: "0px",
                 }}
               />
             </VisibilitySensor>
