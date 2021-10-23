@@ -92,7 +92,7 @@ function Counter() {
               <div
                 ref={countUpRef}
                 style={{
-                  fontFamily: "SF UI Display",
+                  // fontFamily: "SF UI Display",
                   fontStyle: "normal",
                   fontWeight: "bold",
                   fontSize: "54px",
