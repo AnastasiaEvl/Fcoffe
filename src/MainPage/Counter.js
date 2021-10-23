@@ -38,7 +38,7 @@ function Counter() {
               <span
                 ref={countUpRef}
                 style={{
-                  fontFamily: "SF UI Display",
+                  // fontFamily: "SF UI Display",
                   fontStyle: "normal",
                   fontWeight: "bold",
                   fontSize: "54px",
@@ -70,7 +70,7 @@ function Counter() {
           redraw={false}
           containerProps={containerProps}
           style={{
-            fontFamily: "SF UI Display",
+            // fontFamily: "SF UI Display",
             fontStyle: "normal",
             fontWeight: "bold",
             fontSize: "54px",
@@ -85,7 +85,7 @@ function Counter() {
               <span
                 ref={countUpRef}
                 style={{
-                  fontFamily: "SF UI Display",
+                  // fontFamily: "SF UI Display",
                   fontStyle: "normal",
                   fontWeight: "bold",
                   fontSize: "54px",
