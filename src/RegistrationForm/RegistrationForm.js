@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import axios from "axios";
 
 import Box from "@mui/material/Box";
 import Input from "@mui/material/Input";
 import "./Registration.css";
-import MainPage from "../MainPage/MainPage";
+import {registration} from "../action/user";
+import {useDispatch} from "react-redux";
 
 function FormEnter() {
+
+  const dispatch = useDispatch();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState();
 
@@ -66,20 +69,6 @@ function FormEnter() {
     }
   };
 
-  function postData() {
-    axios
-      // .post("http://19da-93-125-107-39.ngrok.io/logged_in_one", {
-      .post("/registration", {
-        email: email,
-        password: password,
-      })
-      .catch((data) => {
-        // if (data.status === 200) {
-        // window.location = "/signUp";
-        // }
-      })
-      .then((error) => console.log(error));
-  }
   function Aform() {
     window.location = "/Aform";
   }
@@ -204,7 +193,7 @@ function FormEnter() {
                 type="submit"
                 name="confirmPass"
                 disabled={!buttonChange()}
-                onClick={postData}
+                onClick={() => dispatch(registration(email, password))}
               >
                 Зарегистрироваться
               </button>
