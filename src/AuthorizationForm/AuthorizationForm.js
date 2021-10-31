@@ -193,16 +193,16 @@ function AuthorizationForm() {
                         </div>
                     </tr>
 
-                    <button
+                    <div
                         className="RegisterBtn"
                         id="btn"
-                        type="submit"
-                        name="buttonSubmit"
+                        // type="submit"
+                        // name="buttonSubmit"
                         disabled={!buttonChange()}
                         onClick={() => dispatch(auth(email, password))}
                     >
                         Войти
-                    </button>
+                    </div>
 
                     <tr>
                         <p className="registeredLink">

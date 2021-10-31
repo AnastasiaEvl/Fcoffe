@@ -29,6 +29,11 @@ export const auth = (email, password) => {
                 "email": email,
                 "password": password
             })
+            .then(data=>
+                console.log(data))
+            .catch(err=>
+                console.log(err))
+            console.log(response)
             dispatch(setUser(response.data.user))
             localStorage.setItem('token', response.data.token)
             console.log("I have token");
