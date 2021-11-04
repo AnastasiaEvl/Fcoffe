@@ -8,12 +8,16 @@ import Welcome from "./Welcome";
 import Numbers from "./Numbers";
 import Review from "./Review";
 import Footer3 from "./Footer3";
+import Button from  './Button';
+
 
 function MainPage() {
   return (
+
     <div className="wrapper2">
       <Header />
       <MainPicture />
+        <Button/>
       <Steps />
       <Counter />
       <Sale />

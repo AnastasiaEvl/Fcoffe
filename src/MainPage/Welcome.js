@@ -6,16 +6,10 @@ function Welcome() {
   }
   return (
     <div className="welcome">
-      <div className="textWelcome">Welcome to FC!</div>
-      <div className="registered">
-        Зарегистрируйтесь в приложении - дарим <b>СКИДКУ</b> на все заказы и
-        кое-что еще ;)
-      </div>
-      <img className="funCup" src="/image/funCUP.png"></img>
-      <div className="regButton" onClick={Rform}>
-        Зарегистрироваться
-      </div>
-    </div>
+      <div className='glass'>
+        <span className='welcome_title'>Welcome to FC!</span>
+      <div className='welcome_text'>Зарегистрируйтесь в приложении - дарим <span className='color_one'>СКИДКУ</span> на все заказы!</div></div>
+</div>
   );
 }
 

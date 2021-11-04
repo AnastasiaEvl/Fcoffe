@@ -7,7 +7,7 @@ export const registration = (email, password) => {
     return async dispatch => {
         try {
             console.log("It's login dispatch" + email + " " + password);
-            const response = await axios.post(`http://localhost:3001/login`, {
+            const response = await axios.post(`http://localhost:8080/a700-93-171-160-14.ngrok.io/`, {
                 "email": email,
                 "password": password
             })

@@ -21,7 +21,7 @@ function Counter() {
                 <img
                     className="logoPartners"
                     style={{zIndex: "3"}}
-                    src="/image/partners.png"
+                    src="/image/hands_circle.png"
                 />
             </div>
             <div className="counterStyle">
@@ -64,7 +64,7 @@ function Counter() {
                 <img
                     className="coffeePartners"
                     style={{zIndex: "3"}}
-                    src="/image/coffeePartners.png"
+                    src="/image/geo_circle.png"
                 />
             </div>
             <div className="counterStyle">
@@ -81,7 +81,7 @@ function Counter() {
                         fontWeight: "bold",
                         fontSize: "54px",
                         lineHeight: "16px",
-                        marginLeft: "28%",
+                        marginLeft: "25%",
                         marginTop: "72px",
                         position: "absolute",
                     }}
@@ -98,7 +98,7 @@ function Counter() {
                                     lineHeight: "16px",
                                     zIndex: "5",
                                     marginTop: "40px",
-                                    marginLeft: "24%",
+                                    marginLeft: "20%",
                                     position: "absolute",
                                     width: "93.19px",
                                     height: "75px",

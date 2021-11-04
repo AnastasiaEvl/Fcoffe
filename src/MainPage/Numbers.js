@@ -3,6 +3,7 @@ import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
 function Counters() {
+
   const [loading, setLoading] = React.useState(false);
   const onStart = () => {
     setLoading(true);
@@ -13,9 +14,13 @@ function Counters() {
   const containerProps = {
     "aria-busy": loading,
   };
+  function Reg(){
+      window.location='/Rform';
+  }
 
   return (
     <div className="numbers">
+        <div className='reg_button' onClick={Reg}>Зарегистрироваться</div>
       <img className="man" src="/image/man.png" />
       <img className="smallCup" src="/image/smallCup.png" />
       <div className="number1">

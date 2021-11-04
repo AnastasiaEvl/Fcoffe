@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { store } from "./reducers";
 import {Provider} from 'react-redux'
+import '../src/fonts/stylesheet.css';
 
 ReactDOM.render(
     <Provider store={store}>

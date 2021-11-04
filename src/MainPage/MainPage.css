@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Sen:wght@700&display=swap');
+
 .wrapper2 {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1700px;
     height: auto;
+    background-color: #202021;
+;
 
 }
 
 .a {
     text-decoration: none;
+
 }
 
 .a:hover {
@@ -15,20 +21,22 @@
 
 .burger {
     position: absolute;
-    margin-left: 5%;
+    margin-left: 0%;
     margin-top: 37px;
 }
 
 .menu1 {
-
-
-    height: 84px;
+    height: 88px;
     width: 100%;
-    border-radius: 0px;
+    margin-left: 0px;
+    border-radius: 0;
     position: fixed;
-    background-color: white;
+    background-color: #202021;
+    color: #E1E1E1;
     z-index: 70;
-    margin-top: -85px;
+    top: 0;
+    margin-bottom: 0;
+
 
 }
 
@@ -44,27 +52,130 @@
     position: absolute;
     margin-top: 20px;
     margin-left: 42%;
-
-    width: 4, 5%;
-    height: auto;
+    width: 53px;
+    height: 52px;
 
 }
-
-.enter {
+.orderFood{
     position: absolute;
-    margin-left: 78%;
-    margin-top: 33px;
+    margin-left: 70%;
+    margin-top: 37px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 6px;
+    line-height: 15px;
+    /* identical to box height, or 250% */
+    color: #FFFFFF;
+    width:25px;
+    height: 37px;
+}
+.enterOne{
+    position: absolute;
+    margin-top: 35px;
+    font-family: SF UI Display;
+    font-style: normal;
+    margin-left: 80%;
+    font-weight: 200;
+    font-size: 6px;
+    text-align: right;
+    line-height: 13px;
+    /* identical to box height, or 250% */
+    color: #FFFFFF;
+    width:25px;
+    height: 28px;
 
-
-    padding-top: 0px;
-    cursor: pointer;
 }
 
+
+.Name{
+    position: absolute;
+    height: 137px;
+    width:86px;
+    margin-left: 7.8%;
+    top: 60px;
+    color:white;
+    z-index: 5;
+    font-family: Roboto, serif;
+    /* identical to box height, or 146% */
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    display: block;
+    text-align: left;
+
+
+
+}
+
+.your{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+.coffeeIn{
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height, or 146% */
+    letter-spacing: -0.04em;
+}
+.smallFC{
+    position: absolute;
+    font-family: Sen;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    z-index: 5;
+    top: 80%;
+    margin-left: 59%;
+    color: #FFFFFFCC;
+
+
+}
+.In{
+
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+
+}
+.yourTime{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 35px;
+    /* identical to box height, or 97% */
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+.time{
+
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+
+
+}
 .mainpicture {
     position: relative;
     width: 100%;
     height: auto;
-    margin-top: 84px;
+    margin-top: 80px;
+    background-color: #202021;
+
 }
 
 .mainpic {
@@ -72,180 +183,152 @@
     width: 100%;
     height: auto;
     z-index: 3;
+    margin-top: 0px;
+    padding-top: 0px;
+
 }
 
 .steps {
     position: absolute;
     height: 567px;
     width: 100%;
-    left: 0px;
-    border-radius: 0px;
+    left: 0;
+    border-radius: 0;
+    display: block;
+    background-color: #202021;
 
-
-}
-
-
-.coffeeFone {
-    position: absolute;
-    z-index: 2;
-    height: 567px;
-    width: 100%;
-    left: 0px;
+;
 
 }
-
-.mainLine {
-    position: absolute;
-    margin-left: 5.9375%;
-
-    margin-top: 0px;
-    z-index: 5;
-}
-
-
-.V {
-    position: absolute;
-    z-index: 4;
-    height: 13.82px;
-    width: 17px;
-    margin-top: 41.59px;
-    margin-left: 37.1875%;
-
-}
-
-.V2 {
-    position: absolute;
-    z-index: 4;
-    height: 13.82px;
-    width: 17px;
-    margin-top: 93.59px;
-    margin-left: 37.1875%;
-}
-
-.text1 {
-    position: relative;
-    z-index: 4;
-    height: 52px;
-    width: 172px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.text_crop_one{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
-    margin-left: 44.375%;
-    margin-top: 41.59px;;
-    font-weight: 600;
     line-height: 16px;
-}
+    /* or 100% */
+    text-align: left;
+    color: #E1E1E1;
+    margin-top: 42px;
+    margin-bottom: 10px;
+    margin-left: 10.38%;
+    margin-right: 29px;
+    width: 80.9%;
+    display: flex;
 
-.text2 {
-    position: absolute;
-    z-index: 4;
-    height: 52px;
-    width: 172px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.corn{
+    width: 24.25px;
+    height: 21.8px;
+}
+.text_crop{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
-    margin-left: 44.375%;
-    margin-top: 0px;
-    font-weight: 600;
     line-height: 16px;
+    /* or 100% */
+    text-align: left;
+    color: #E1E1E1;;
+    margin-bottom: 10px;
+    margin-right: 29px;
+    width: 80.9%;
+    margin-left: 10.38%;
+    display: flex;
+
+
+}
+.text_crop_one_one{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    /* or 100% */
+    text-align: center;
+    color: #E1E1E1;
+    margin-bottom: 26px;
+    margin-left: 10.38%;
+    width: 80.9%;
+    margin-right: 29px;
+
+}
+.one{
+    padding-left: 18px;
+    width: 228px;
+    height:52px;
+}
+.two{
+    padding-left: 20px;
 }
 
-.text3 {
-    position: absolute;
-    z-index: 4;
-    height: 46px;
-    width: 198px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    margin-left: 33.64%;
-    margin-top: 66px;
+
+.text_cup_crop{
+    font-family: SF UI Display;
+    font-style: normal;
     font-weight: 300;
-    line-height: 12px;
-
-}
-
-.text4 {
-    position: absolute;
-    z-index: 4;
-    height: 46px;
-    width: 198px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
-    margin-left: 33.64%;
-    margin-top: 135px;
-    font-weight: 300;
-    line-height: 12px;
-
+    line-height: 16px;
+    /* or 114% */
+    text-align: left;
+    color: #E1E1E1;
+    margin-top:27px;
+    margin-bottom: 27px;
+    width: 230px;
+    margin-left: 12%;
+    display: flex;
 }
-
-.text5 {
-    position: absolute;
-    z-index: 4;
-    height: 46px;
-    width: 198px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.cup_corn{
+    width: 20px;
+    height: 18px;
+}
+.text_cup_crop_one{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 300;
     font-size: 14px;
-    margin-left: 33.64%;
-    margin-top: 197px;
-    font-weight: 300;
-    line-height: 12px;
-
+    line-height: 16px;
+    /* or 114% */
+    text-align: left;
+    color: #E1E1E1;
+    margin-left:17.5%;
+    margin-right: 25px;
+    width:69%;
+    margin-bottom: 12px;
 }
-
-.text6 {
-    position: absolute;
-    z-index: 4;
-    height: 46px;
-    width: 198px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.text_cup_crop_two{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 300;
     font-size: 14px;
-    margin-left: 33.64%;
-    margin-top: 259px;
-    font-weight: 300;
-    line-height: 12px;
+    line-height: 16px;
+    /* or 114% */
+    text-align: left;
+    color: #E1E1E1;
+    margin-left:17.5%;
+    margin-right: 25px;
+    width:69%;
+    margin-bottom: 27px;
 
 }
-
-
-.text7 {
-    position: absolute;
-    z-index: 4;
-    height: 46px;
-    width: 198px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    margin-left: 33.64%;
-    margin-top: 317px;
-    font-weight: 300;
-    line-height: 12px;
-
+.cropImg{
+    margin-top: 54.41px;
+    margin-left: 10.9%;
+    border: 2px solid white;
+    width:22px;
 }
-
-.text8 {
-    position: absolute;
-    z-index: 4;
-    height: 46px;
-    width: 198px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    margin-left: 33.64%;
-    margin-top: 380px;
-    font-weight: 300;
-    line-height: 12px;
-
-}
-
 .counter {
-
     position: absolute;
-
     width: 100%;
-    left: 0px;
+    left: 0;
     height: 900px;
     margin-top: 565px;
-
-    border-radius: 0px;
-
-    background-color: rgba(229, 229, 229, 0.8);
+    border-radius: 0;
+    background-color: #202021;
     z-index: 4;
+    color: #FEFEFE;
+
 
 }
 
@@ -254,12 +337,20 @@
     width: 58.437%;
     margin-top: 40px;
     margin-left: 24.68%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
     line-height: 22px;
     text-align: center;
+    white-space: nowrap;
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+    color: #FEFEFE;
 }
 
 .logoPartners {
@@ -290,19 +381,32 @@
 }
 
 .p {
-    font-size: 14px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 16px;
     margin-left: 58.12%;
     margin-top: 147px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    text-transform: uppercase;
+    color: #E1E1E1;
+
 }
 
 .c {
-    font-size: 14px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 16px;
     margin-left: 58.12%;
     margin-top: 139.77px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    text-transform: uppercase;
+    color: #E1E1E1;
 
 }
 
@@ -364,27 +468,68 @@
 
 .Sale {
     position: absolute;
-    height: 372px;
+    height: 570px;
     width: 100%;
-    left: 0px;
+    left: 0;
     margin-top: 1465px;
-    border-radius: 0px;
+    border-radius: 0;
+    background-color: #202021;
+;
 
 
 }
+.becomePartners{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    margin-top: 1200px;
+    background-color: #00FBF4;
 
+}
+.btn_become_partner{
+
+    width: 288px;
+    height: 50px;
+    left: 16px;
+    top: 1770px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 25px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    text-align: center;
+    margin-left: 5%;
+    width: 90%;
+    padding-top: 15.22px;
+
+    color: #FFFFFF;
+}
 .sales {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 700;
-    font-size: 18px;
 
     height: 83px;
     width: 100%;
     left: 4.375%;
     top: 29px;
-
     text-align: center;
     padding-top: 29px;
+    margin-bottom: 34px;
+
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 136% */
+
+    color: #FEFEFE;
+
 
 
 }
@@ -393,7 +538,7 @@
 
     position: absolute;
 
-    margin-top: 0px;
+    margin-top: 0;
     width: 100%;
     height: 172px;
 
@@ -411,44 +556,95 @@
     position: absolute;
     margin-top: 40px;
     margin-left: 5%;
-    border: 1px solid #414142;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: SF UI Display;
     font-style: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 22px;
+    /* or 157% */
     text-align: center;
-    height: 45px;
+    color: #FFFFFF;
+    height: 50px;
     width: 90.31%;
-    border-radius: 5px;
     box-sizing: border-box;
     padding-top: 10px;
-    color: #414142;
-
+    background-color: #414142;
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 25px;
 
 }
-
+.make_offer{
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 5%;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    text-align: center;
+    height: 50px;
+    width: 90.31%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    background: #00FBF4;
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 25px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 800;
+    color: #263238;
+}
 .welcome {
     position: absolute;
     width: 100%;
-    background-color: #21252B;
-    height: 293px;
-    left: 0px;
-    margin-top: 1850px;
-    border-radius: 0px;
+    background-image: url('coffee_hands.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 260px;
+    left: 0;
+    margin-top: 2034px;
+    border-radius: 0;
+
 
 }
+.glass{
+    margin-top:52%;
+    margin-left: 18%;
+    background-image: url('glass.png');
+    background-size: 100%;
+    width: 82%;
+    height: 84px;
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+}
+.welcome_title{
 
-.textWelcome {
-    font-weight: bold;
-    font-size: 24px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
     line-height: 22px;
+    /* or 100% */
     color: #FFFFFF;
-    width: 268px;
-    height: 46px;
-    position: absolute;
-    margin-top: 46px;
-    margin-left: 5%;
+    margin-left: 16px;
+    margin-top: 9px;
+}
 
+.welcome_text{
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-left: 16px;
+    margin-top: 11px;
+    text-align: left;
+}
+.color_one{
+    color: #00FBF4;
 }
 
 .registered {
@@ -467,7 +663,26 @@
     height: 115px;
 
 }
+.reg_button{
+    width: 90%;
+    height: 50px;
+    left: 18px;
+    margin-top: 31px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    margin-left: 5.6%;
 
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    text-align: center;
+    color: #2B3238;
+    padding-top: 13.33px;
+
+}
 .regButton {
     position: absolute;
     margin-top: 24px;
@@ -477,7 +692,6 @@
     background-color: #F7C1D9;
     width: 90.31%;
     height: 45px;
-    position: absolute;
     text-align: center;
     padding-top: 12px;
     border-radius: 5px;
@@ -486,12 +700,12 @@
 
 .numbers {
     position: absolute;
-    height: 203px;
+    height: 245px;
     width: 100%;
-    left: 1px;
-    margin-top: 2140px;
-    border-radius: 0px;
-
+    left: 0;
+    margin-top: 2290px;
+    border-radius: 0;
+    background-color: #202021;
 
 }
 
@@ -512,30 +726,41 @@
 }
 
 .number1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     position: absolute;
-    margin-left: 11.87%;
+    margin-left: 15%;
     margin-top: 61px;
     font-weight: bold;
-    font-size: 54px;
     line-height: 16px;
     height: 41px;
     width: 103px;
     font-style: normal;
+    color: #00FBF4;
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    letter-spacing: -0.05em;
+
 
 
 }
 
 .number2 {
     position: absolute;
-    margin-left: 62.81%;
+    margin-left: 64%;
     margin-top: 61px;
-    font-weight: bold;
-    font-size: 54px;
     line-height: 16px;
     height: 41px;
     width: 103px;
+    color: #00FBF4;
+    font-family: SF UI Display;
     font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    letter-spacing: -0.05em;
+
 
 }
 
@@ -555,6 +780,8 @@
     font-style: normal;
     font-weight: 300;
     line-height: 0px;
+    color: #FFFFFFCC;
+
 
     text-align: left;
 
@@ -565,17 +792,14 @@
     margin-left: 63.75%;
     margin-top: 119px;
     height: 17px;
-    width: 139px;
-    letter-spacing: -0.5em;
+
     padding-top: 11px;
-
-
+    color: #FFFFFFCC;
     font-family: SF UI Display;
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
     line-height: 0px;
-    letter-spacing: 0em;
     text-align: left;
 }
 
@@ -583,45 +807,54 @@
 .highLetters {
     font-size: 14px;
     font-weight: 500;
+    color: #FFFFFFCC;
+    width:96px;
+    height: auto;
+
+
 
 
 }
 
 .reviews {
-
     position: absolute;
-    width: 100%;
-    height: 481px;
-    margin-top: 2300px;
-
-    background-color: #DFDFDFCC;
-
-
+    width: 320px;
+    height: 520px;
+    margin-top: 2530px;
+    margin-left: 0px;
+    background-color: #202021;
+;
 }
 
+
 .Rev {
-
     height: 99px;
-
     font-family: SF UI Display;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 20px;
+    color:#FEFEFE;
+    background-color: #202021;
 
 
     text-align: center;
     letter-spacing: -0.165px;
     text-transform: uppercase;
 
-    color: #000000;
     padding-top: 28px;
 }
 
-
+.car{
+    width: 90%;
+    height: 234px;
+   margin-left: 17px;
+    border-radius: 25px;
+}
 .second {
-    width: 100%;
-    height: 172px;
+    width:100%;
+    height: 234px;
+    border-radius: 25px;
 
 }
 
@@ -632,12 +865,6 @@
     margin-left: 4.687%;
     margin-top: 40px;
 
-    background: rgba(255, 255, 255, 0.72);
-    border: 0.5px solid #DADADA;
-    box-sizing: border-box;
-    border-radius: 8px;
-
-
     font-family: SF UI Display;
     font-style: normal;
     font-weight: bold;
@@ -646,7 +873,12 @@
 
     text-align: center;
     padding-top: 11px;
-    color: #000000;
+    color: #FFFFFF;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 25px;
 }
 
 .order {
@@ -654,34 +886,29 @@
     width: 90.31%;
     height: 49px;
     margin-left: 4.687%;
-    margin-top: 42px;
-
-    background: #21252B;
-    border-radius: 8px;
-
-
+    margin-top: 25px;
     font-family: SF UI Display;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 14px;
     line-height: 22px;
-
-
     text-align: center;
-
-    color: #FFFFFF;
+    color: #263238;
     padding-top: 14px;
+    background: #00FBF4;
+    border-radius: 25px;
 
 }
 
 .footer3 {
     position: absolute;
-    height: 240px;
+    height: 260px;
     width: 100%;
     left: 0px;
-    margin-top: 2780px;
+    margin-top: 2900px;
     border-radius: 0px;
-    background-color: #21252B;
+    background-color: #202021;
+;
 }
 
 .FC {
@@ -689,15 +916,16 @@
     width: 39px;
     height: 22px;
     margin-left: 5.9%;
-
-
-    font-family: SF UI Display;
     font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 29px;
     color: #FFFFFF;
     padding-top: 21px;
+    font-family: Sen;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+
 }
 
 .mailAdress {
@@ -723,14 +951,13 @@
 
 .CDA {
     margin-left: 5.9%;
-    width: 97px;
     height: 18px;
     font-family: SF UI Display;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 18px;
-    margin-top: 39px;
+    margin-top: 30px;
 
     align-items: left;
 
@@ -758,20 +985,17 @@
     width: 58.4%;
     height: 112px;
     margin-left: 6.25%;
-
-
+    margin-top: 10px;
     font-family: SF UI Display;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 28px;
-
-
     color: #FFFFFF;
 }
 
 .allRights {
-    margin-top: 21px;
+    margin-top: 40px;
     margin-left: 37.5%;
     width: 27.187%;
     height: 10px;
@@ -780,6 +1004,7 @@
     font-weight: 300;
     font-size: 8px;
     line-height: 10px;
+    white-space: nowrap;
 
     color: #FFFFFF;
 
@@ -813,4 +1038,26 @@
     margin-top: 496px;
     border-radius: 0px;
     background-color: #21252B;
+}
+
+
+.button_one{
+
+    width: 90%;
+    height: 50px;
+    left: 16px;
+    top: 335px;
+    background: #00FBF4;
+    border-radius: 25px;
+    margin-top: 29px;
+    margin-left: 16px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 22px;
+    color: #263238;
+
 }

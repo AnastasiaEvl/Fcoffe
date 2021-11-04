@@ -26,7 +26,7 @@ function FormEnter() {
     if (errorEmail || errorPassword) {
       return false;
     } else {
-      var el = document.getElementById("btn");
+      let el = document.getElementById("btn");
       el.style.backgroundColor = "black";
       el.style.color = "white";
       return true;

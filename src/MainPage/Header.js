@@ -12,9 +12,13 @@ function Header() {
                 <img className="ru" src="./image/RU.svg"/>
             </a>
             <BurgerMenu></BurgerMenu>
-            <img className="logo" src="./image/logo.svg"/>
-            <div className="enter" onClick={Aform}>
-                Войти
+            <img className="logo" src="./image/logoNew.png"/>
+            <div className='orderFood' onClick={Aform}>
+                <img src="./image/orderFood.png"/>
+                Заказать
+            </div>
+            <div className="enterOne" onClick={Aform}>
+            <img src="./image/enterEnter.png"/> Войти
             </div>
         </div>
     );

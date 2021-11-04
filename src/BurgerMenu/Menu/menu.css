@@ -1,11 +1,13 @@
+
 .menu {
     position:fixed;
-    width: 80vw;
+    width: 90vw;
     top:0px;
-    left:0;
+    left:0px;
     transform: translateX(-130%);
     transition: all 0.4s;
-    background-color: white;
+    background-color: #202021;
+    color: white;
     z-index:50;
     margin-top: 25px;
 }
@@ -15,7 +17,7 @@
 }
 
 #A {text-decoration: none;
-        color: black;
+        color: white;
       }
 
 .blur {
@@ -24,30 +26,40 @@
     margin-left: 30%;
     backdrop-filter: blur(2px);
     position: absolute;
+    margin-top: 55px;
 }
 .menu_content{
     position: fixed;
-    height: 485px;
-    top: 84px;
+    height: 493px;
+    top: 58px;
     width: 300px;
-    background-color: white;
+    background: #363637;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
     text-decoration: none;
     transition: all 0.4s;
-    font-family: SF UI Display;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
     /* or 187% */
-
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    color: #FEFEFE;
     letter-spacing: -0.04em;
+    padding-top: 42px;
+    padding-left: 15px;
 
 
 }
+
+.menu_content{
+    font-family: 'SF UI Display';}
+
 
 @media screen and (max-width: 768px) {
     .menu_content {

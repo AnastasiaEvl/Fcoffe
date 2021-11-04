@@ -7,7 +7,7 @@ function Footer3() {
 
     return (
         <div className="footer3">
-            <div className="FC">FC</div>
+            <div className="FC">FastCoffee</div>
             <a href="#" className="a"></a>
             <div className="CDA">ООО “Фаст Кофе”</div>
             <div className="info">
