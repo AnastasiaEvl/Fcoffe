@@ -16,19 +16,19 @@ function Sale() {
 
       <Carousel style={{width: "100%", height: "auto"}}>
         <Carousel.Item  interval={1500}>
-          <img className="first" src="image/sale_zero.png" />
+          <img className="first" src="image/sales_two.png" />
           <Carousel.Caption/>
         </Carousel.Item>
-        <Carousel.Item interval={1500}>
-          <img className="first" src="image/sales_one.png" alt="Second slide" />
-          <Carousel.Caption/>
-        </Carousel.Item>
+        {/*<Carousel.Item interval={1500}>*/}
+        {/*  <img className="first" src="image/sales_one.png" alt="Second slide" />*/}
+        {/*  <Carousel.Caption/>*/}
+        {/*</Carousel.Item>*/}
         <Carousel.Item interval={1500}>
           <img className="first" src="image/sales_two.png" alt="Third slide" />
           <Carousel.Caption/>
         </Carousel.Item>
           <Carousel.Item interval={1500}>
-              <img className="first" src="image/sales_three.png" alt="Third slide" />
+              <img className="first" src="image/sales_two.png" alt="Third slide" />
               <Carousel.Caption/>
           </Carousel.Item>
       </Carousel>
