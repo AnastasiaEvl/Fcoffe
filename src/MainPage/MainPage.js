@@ -24,7 +24,7 @@ function MainPage() {
       <Welcome />
       <Numbers />
       <Review />
-      <Footer3 />
+    <Footer3 />
     </div>
   );
 }

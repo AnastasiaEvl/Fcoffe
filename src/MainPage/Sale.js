@@ -14,22 +14,22 @@ function Sale() {
 
       <div className="sales">АКЦИОННЫЕ ПРЕДЛОЖЕНИЯ</div>
 
-      <Carousel>
-        <Carousel.Item className="carousel" interval={1000}>
-          <img className="first" src="image/sales_null.png" />
-          <Carousel.Caption></Carousel.Caption>
+      <Carousel style={{width: "100%", height: "auto"}}>
+        <Carousel.Item  interval={1500}>
+          <img className="first" src="image/sale_zero.png" />
+          <Carousel.Caption/>
         </Carousel.Item>
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={1500}>
           <img className="first" src="image/sales_one.png" alt="Second slide" />
-          <Carousel.Caption></Carousel.Caption>
+          <Carousel.Caption/>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1500}>
           <img className="first" src="image/sales_two.png" alt="Third slide" />
-          <Carousel.Caption></Carousel.Caption>
+          <Carousel.Caption/>
         </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={1500}>
               <img className="first" src="image/sales_three.png" alt="Third slide" />
-              <Carousel.Caption></Carousel.Caption>
+              <Carousel.Caption/>
           </Carousel.Item>
       </Carousel>
       <a href="#" className="a">
